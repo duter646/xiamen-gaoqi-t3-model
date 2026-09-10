@@ -1,0 +1,145 @@
+[
+  {
+    "name": "concourse-detail-2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Interior_of_Xiamen_Gaoqi_International_Airport_T3_20170729.jpg",
+    "status": "downloaded",
+    "bytes": 3698012
+  },
+  {
+    "name": "checkin-detail-2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Xiamen_Gaoqi_International_Airport_T3_Departure_hall_20170729.jpg",
+    "status": "downloaded",
+    "bytes": 3736119
+  },
+  {
+    "name": "osm-t3-way.json",
+    "url": "https://api.openstreetmap.org/api/0.6/way/164670546/full.json",
+    "status": "cached"
+  },
+  {
+    "name": "osm-t3-surroundings.osm",
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.121,24.534,118.132,24.541",
+    "status": "cached"
+  },
+  {
+    "name": "exterior-day.jpg",
+    "url": "https://5b0988e595225.cdn.sohucs.com/images/20191102/377c44ee8b5641c3857623cc41f72357.jpeg",
+    "status": "cached"
+  },
+  {
+    "name": "exterior-airside.jpg",
+    "url": "https://5b0988e595225.cdn.sohucs.com/q_70%2Cc_zoom%2Cw_640/images/20191102/17cec92546d349049a3c3af3a3feb6f0.jpeg",
+    "status": "cached"
+  },
+  {
+    "name": "front-canopy-2017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Xiamen_Gaoqi_International_Airport_Terminal_3_20170729.jpg",
+    "status": "cached"
+  },
+  {
+    "name": "official-departure-map.jpg",
+    "url": "https://xiamenairport.com.cn/images/lkzn/4hjldt1-big.jpg",
+    "status": "cached"
+  },
+  {
+    "name": "official-arrival-map.jpg",
+    "url": "https://xiamenairport.com.cn/images/lkzn/4hjldt2-big.jpg",
+    "status": "cached"
+  },
+  {
+    "name": "manufacturer-front-1.jpg",
+    "url": "https://ap.hunterdouglas.asia/cms/imgs/project/lg_1423037490.jpg",
+    "status": "cached"
+  },
+  {
+    "name": "manufacturer-front-2.jpg",
+    "url": "https://ap.hunterdouglas.asia/cms/imgs/project/lg_1423037493.jpg",
+    "status": "cached"
+  },
+  {
+    "name": "manufacturer-detail-3.jpg",
+    "url": "https://ap.hunterdouglas.asia/cms/imgs/project/lg_1423037556.jpg",
+    "status": "cached"
+  },
+  {
+    "name": "manufacturer-detail-4.jpg",
+    "url": "https://ap.hunterdouglas.asia/cms/imgs/project/lg_1423037727.jpg",
+    "status": "cached"
+  },
+  {
+    "name": "west-2024-1.jpg",
+    "url": "https://www.investxiamen.org.cn/ueditor/php/upload/image/20240829/1724916603141244.jpg",
+    "status": "cached"
+  },
+  {
+    "name": "west-2024-2.jpg",
+    "url": "https://www.investxiamen.org.cn/ueditor/php/upload/image/20240829/1724916614598012.jpg",
+    "status": "cached"
+  },
+  {
+    "name": "west-2024-3.jpg",
+    "url": "https://www.investxiamen.org.cn/ueditor/php/upload/image/20240829/1724916631625510.jpg",
+    "status": "cached"
+  },
+  {
+    "name": "security-2025.png",
+    "url": "https://n.sinaimg.cn/sinakd20250225s/200/w1080h720/20250225/eb1e-0be1eeb3bdce2b603ea24a4184b7e597.png",
+    "status": "cached"
+  },
+  {
+    "name": "official-map-departure.html",
+    "url": "https://xiamenairport.com.cn/lkzn/1cjzn04-1-big.aspx",
+    "status": "cached"
+  },
+  {
+    "name": "official-map-arrival.html",
+    "url": "https://xiamenairport.com.cn/lkzn/1cjzn04-2-big.aspx",
+    "status": "cached"
+  },
+  {
+    "name": "walkthrough-old.html",
+    "url": "https://classic-blog.udn.com/visa520infinite/179174837",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "walkthrough-2024.html",
+    "url": "https://zhizuchangle.hatenablog.com/entry/xiamen_zhuanji",
+    "status": "cached"
+  },
+  {
+    "name": "security-2025.html",
+    "url": "https://finance.sina.com.cn/wm/2025-02-25/doc-inemswwe8949884.shtml",
+    "status": "cached"
+  },
+  {
+    "name": "walk-2024-20241208071829.jpg",
+    "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/z/zhizuchangle/20241208/20241208071829.jpg",
+    "status": "cached"
+  },
+  {
+    "name": "walk-2024-20241208071835.jpg",
+    "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/z/zhizuchangle/20241208/20241208071835.jpg",
+    "status": "cached"
+  },
+  {
+    "name": "walk-2024-20241208073532.jpg",
+    "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/z/zhizuchangle/20241208/20241208073532.jpg",
+    "status": "cached"
+  },
+  {
+    "name": "walk-2024-20241208073039.jpg",
+    "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/z/zhizuchangle/20241208/20241208073039.jpg",
+    "status": "cached"
+  },
+  {
+    "name": "walk-2024-20241208083243.jpg",
+    "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/z/zhizuchangle/20241208/20241208083243.jpg",
+    "status": "cached"
+  },
+  {
+    "name": "walk-2024-20241208083343.jpg",
+    "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/z/zhizuchangle/20241208/20241208083343.jpg",
+    "status": "cached"
+  }
+]
