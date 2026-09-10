@@ -18,7 +18,7 @@
 
 ## 获取模型
 
-GLB 体积较大，不存放在 Git 仓库中。请从 [Releases](https://github.com/duter646/xiamen-t3-model/releases) 下载 `xiamen-gaoqi-t3.glb`，放入：
+GLB 体积较大，不存放在 Git 仓库中。请从 [Releases](https://github.com/duter646/xiamen-gaoqi-t3-model/releases) 下载 `xiamen-gaoqi-t3.glb`，放入：
 
 ```text
 assets/xiamen-gaoqi-t3.glb
