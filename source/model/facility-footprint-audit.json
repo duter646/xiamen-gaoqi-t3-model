@@ -1,0 +1,724 @@
+[
+  {
+    "id": "D-SH01",
+    "status": "visible outline individually traced; metric scale and hidden edges estimated",
+    "source": "facility-reference.png; crop x910 y630, scale2",
+    "source_pixels": [
+      [
+        420,
+        631
+      ],
+      [
+        476,
+        598
+      ],
+      [
+        550,
+        617
+      ],
+      [
+        550,
+        631
+      ],
+      [
+        536,
+        638
+      ],
+      [
+        483,
+        623
+      ],
+      [
+        447,
+        651
+      ]
+    ],
+    "world_outline_xz": [
+      [
+        -77.00271389980762,
+        42.60698787969474
+      ],
+      [
+        -71.43555638084287,
+        42.62107238673699
+      ],
+      [
+        -69.33113871016013,
+        45.88196079410427
+      ],
+      [
+        -70.50561439065991,
+        46.60698787969474
+      ],
+      [
+        -71.79253987035648,
+        46.53873219172075
+      ],
+      [
+        -73.18299056201198,
+        44.131148226390295
+      ],
+      [
+        -77.33113871016013,
+        44.47351008987892
+      ]
+    ],
+    "front_edge": 3
+  },
+  {
+    "id": "D-SH02",
+    "status": "visible outline individually traced; metric scale and hidden edges estimated",
+    "source": "facility-reference.png; crop x910 y630, scale2",
+    "source_pixels": [
+      [
+        444,
+        657
+      ],
+      [
+        479,
+        639
+      ],
+      [
+        528,
+        644
+      ],
+      [
+        539,
+        654
+      ],
+      [
+        538,
+        666
+      ],
+      [
+        500,
+        683
+      ],
+      [
+        444,
+        677
+      ]
+    ],
+    "world_outline_xz": [
+      [
+        -62.35368452978134,
+        43.16416280113718
+      ],
+      [
+        -58.14307730456996,
+        43.33656102037714
+      ],
+      [
+        -55.521247942540754,
+        45.440696771070726
+      ],
+      [
+        -55.894806743463114,
+        46.460633541184926
+      ],
+      [
+        -57.25991050979671,
+        47.16416280113718
+      ],
+      [
+        -61.55583672040393,
+        46.82014060615686
+      ],
+      [
+        -64.52124794254075,
+        44.39779077713563
+      ]
+    ],
+    "front_edge": 4
+  },
+  {
+    "id": "D-SH03",
+    "status": "visible outline individually traced; metric scale and hidden edges estimated",
+    "source": "facility-reference.png; crop x910 y630, scale2",
+    "source_pixels": [
+      [
+        378,
+        813
+      ],
+      [
+        441,
+        776
+      ],
+      [
+        395,
+        747
+      ],
+      [
+        395,
+        729
+      ],
+      [
+        565,
+        666
+      ],
+      [
+        605,
+        666
+      ],
+      [
+        630,
+        683
+      ],
+      [
+        478,
+        773
+      ]
+    ],
+    "world_outline_xz": [
+      [
+        -66.81176118509649,
+        64.22328148289103
+      ],
+      [
+        -63.11466355976667,
+        64.24629721403153
+      ],
+      [
+        -63.03550788694345,
+        61.23794004563682
+      ],
+      [
+        -62.14263189749754,
+        60.276642226544936
+      ],
+      [
+        -53.99381923258989,
+        62.30627218721709
+      ],
+      [
+        -52.811761185096486,
+        63.57548920545091
+      ],
+      [
+        -52.916246673223135,
+        65.27664222654494
+      ],
+      [
+        -61.872447200927624,
+        65.26010665271583
+      ]
+    ],
+    "front_edge": 6
+  },
+  {
+    "id": "D-CF01",
+    "status": "visible outline individually traced; metric scale and hidden edges estimated",
+    "source": "facility-reference.png; crop x910 y630, scale2",
+    "source_pixels": [
+      [
+        305,
+        785
+      ],
+      [
+        340,
+        768
+      ],
+      [
+        361,
+        771
+      ],
+      [
+        360,
+        784
+      ],
+      [
+        331,
+        801
+      ],
+      [
+        307,
+        797
+      ]
+    ],
+    "world_outline_xz": [
+      [
+        -87.77797397473485,
+        36.0416729013916
+      ],
+      [
+        -83.22310930758049,
+        36.52086983706722
+      ],
+      [
+        -82.07863235074069,
+        38.475169137027585
+      ],
+      [
+        -83.71469672528349,
+        40.0416729013916
+      ],
+      [
+        -87.83942240194772,
+        40.01261465281149
+      ],
+      [
+        -89.07863235074069,
+        37.706974710928
+      ]
+    ],
+    "front_edge": 3
+  },
+  {
+    "id": "I-SH01",
+    "status": "visible outline individually traced; metric scale and hidden edges estimated",
+    "source": "facility-reference.png; crop x910 y630, scale2",
+    "source_pixels": [
+      [
+        1141,
+        104
+      ],
+      [
+        1180,
+        82
+      ],
+      [
+        1246,
+        116
+      ],
+      [
+        1244,
+        132
+      ],
+      [
+        1199,
+        153
+      ],
+      [
+        1159,
+        132
+      ]
+    ],
+    "world_outline_xz": [
+      [
+        116.13615813152381,
+        18.668951069878766
+      ],
+      [
+        122.80491597343097,
+        18.73462327177387
+      ],
+      [
+        123.5891066886129,
+        22.838666803061983
+      ],
+      [
+        121.0546022971449,
+        23.668951069878766
+      ],
+      [
+        114.00629614908968,
+        23.347391824170916
+      ],
+      [
+        113.5891066886129,
+        20.838010081043034
+      ]
+    ],
+    "front_edge": 3
+  },
+  {
+    "id": "west-lounge1",
+    "status": "functional anchor checked; full wall outline obscured or absent in guide, not verified",
+    "position_xz": [
+      -325,
+      -1
+    ]
+  },
+  {
+    "id": "west-lounge2",
+    "status": "functional anchor checked; full wall outline obscured or absent in guide, not verified",
+    "position_xz": [
+      -265,
+      -1
+    ]
+  },
+  {
+    "id": "west-cafe",
+    "status": "functional anchor checked; full wall outline obscured or absent in guide, not verified",
+    "position_xz": [
+      -236,
+      -1
+    ]
+  },
+  {
+    "id": "gate5-shop",
+    "status": "functional anchor checked; full wall outline obscured or absent in guide, not verified",
+    "position_xz": [
+      -187,
+      -1
+    ]
+  },
+  {
+    "id": "gate6-lounge",
+    "status": "functional anchor checked; full wall outline obscured or absent in guide, not verified",
+    "position_xz": [
+      -132,
+      -1
+    ]
+  },
+  {
+    "id": "gate7-shop",
+    "status": "functional anchor checked; full wall outline obscured or absent in guide, not verified",
+    "position_xz": [
+      -90,
+      -1
+    ]
+  },
+  {
+    "id": "gate8-shop",
+    "status": "functional anchor checked; full wall outline obscured or absent in guide, not verified",
+    "position_xz": [
+      -18,
+      -1
+    ]
+  },
+  {
+    "id": "gate9-service",
+    "status": "functional anchor checked; full wall outline obscured or absent in guide, not verified",
+    "position_xz": [
+      98,
+      -1
+    ]
+  },
+  {
+    "id": "gate10-dutyfree",
+    "status": "functional anchor checked; full wall outline obscured or absent in guide, not verified",
+    "position_xz": [
+      168,
+      -1
+    ]
+  },
+  {
+    "id": "gate11-dutyfree",
+    "status": "functional anchor checked; full wall outline obscured or absent in guide, not verified",
+    "position_xz": [
+      225,
+      -1
+    ]
+  },
+  {
+    "id": "gate12-cafe",
+    "status": "functional anchor checked; full wall outline obscured or absent in guide, not verified",
+    "position_xz": [
+      281,
+      -1
+    ]
+  },
+  {
+    "id": "gate15-shop",
+    "status": "functional anchor checked; full wall outline obscured or absent in guide, not verified",
+    "position_xz": [
+      302,
+      -1
+    ]
+  },
+  {
+    "id": "gate16-service",
+    "status": "functional anchor checked; full wall outline obscured or absent in guide, not verified",
+    "position_xz": [
+      351,
+      -1
+    ]
+  },
+  {
+    "id": "island-A",
+    "status": "counter outline traced; rear construction partly inferred",
+    "source_pixels": [
+      [
+        138,
+        859
+      ],
+      [
+        182,
+        834
+      ],
+      [
+        257,
+        878
+      ],
+      [
+        213,
+        903
+      ]
+    ]
+  },
+  {
+    "id": "island-B",
+    "status": "counter outline traced; rear construction partly inferred",
+    "source_pixels": [
+      [
+        290,
+        774
+      ],
+      [
+        327,
+        752
+      ],
+      [
+        442,
+        819
+      ],
+      [
+        404,
+        842
+      ]
+    ]
+  },
+  {
+    "id": "island-C",
+    "status": "counter outline traced; rear construction partly inferred",
+    "source_pixels": [
+      [
+        452,
+        673
+      ],
+      [
+        481,
+        656
+      ],
+      [
+        558,
+        701
+      ],
+      [
+        528,
+        718
+      ]
+    ]
+  },
+  {
+    "id": "island-D",
+    "status": "counter outline traced; rear construction partly inferred",
+    "source_pixels": [
+      [
+        615,
+        531
+      ],
+      [
+        658,
+        506
+      ],
+      [
+        735,
+        551
+      ],
+      [
+        692,
+        576
+      ]
+    ]
+  },
+  {
+    "id": "island-E",
+    "status": "counter outline traced; rear construction partly inferred",
+    "source_pixels": [
+      [
+        867,
+        390
+      ],
+      [
+        911,
+        364
+      ],
+      [
+        986,
+        407
+      ],
+      [
+        943,
+        433
+      ]
+    ]
+  },
+  {
+    "id": "island-F",
+    "status": "counter outline traced; rear construction partly inferred",
+    "source_pixels": [
+      [
+        1008,
+        227
+      ],
+      [
+        1045,
+        205
+      ],
+      [
+        1194,
+        291
+      ],
+      [
+        1158,
+        313
+      ]
+    ]
+  },
+  {
+    "id": "island-G",
+    "status": "counter outline traced; rear construction partly inferred",
+    "source_pixels": [
+      [
+        1098,
+        141
+      ],
+      [
+        1128,
+        124
+      ],
+      [
+        1360,
+        257
+      ],
+      [
+        1330,
+        275
+      ]
+    ]
+  },
+  {
+    "id": "west-toilet",
+    "status": "approximate guide-based service outline; exact footprint not verified",
+    "outline": [
+      [
+        -102,
+        65
+      ],
+      [
+        -102,
+        56
+      ],
+      [
+        -95,
+        56
+      ],
+      [
+        -95,
+        61
+      ],
+      [
+        -94,
+        61
+      ],
+      [
+        -94,
+        65
+      ]
+    ]
+  },
+  {
+    "id": "west-restaurant",
+    "status": "approximate guide-based service outline; exact footprint not verified",
+    "outline": [
+      [
+        -103,
+        92
+      ],
+      [
+        -103,
+        80
+      ],
+      [
+        -86,
+        80
+      ],
+      [
+        -86,
+        85
+      ],
+      [
+        -78,
+        85
+      ],
+      [
+        -78,
+        92
+      ]
+    ]
+  },
+  {
+    "id": "east-restaurant",
+    "status": "approximate guide-based service outline; exact footprint not verified",
+    "outline": [
+      [
+        117,
+        92
+      ],
+      [
+        117,
+        86
+      ],
+      [
+        126,
+        86
+      ],
+      [
+        126,
+        81
+      ],
+      [
+        146,
+        81
+      ],
+      [
+        146,
+        92
+      ]
+    ]
+  },
+  {
+    "id": "baggage-service",
+    "status": "approximate guide-based service outline; exact footprint not verified",
+    "outline": [
+      [
+        -37,
+        74
+      ],
+      [
+        -37,
+        68
+      ],
+      [
+        -29,
+        68
+      ],
+      [
+        -29,
+        71
+      ],
+      [
+        -24,
+        71
+      ],
+      [
+        -24,
+        74
+      ]
+    ]
+  },
+  {
+    "id": "east-toilet",
+    "status": "approximate guide-based service outline; exact footprint not verified",
+    "outline": [
+      [
+        134,
+        79
+      ],
+      [
+        134,
+        70
+      ],
+      [
+        146,
+        70
+      ],
+      [
+        146,
+        79
+      ]
+    ]
+  }
+]

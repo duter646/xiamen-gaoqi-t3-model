@@ -1,0 +1,109 @@
+{
+  "street_doors": [
+    {
+      "level": 1,
+      "number": 11,
+      "x": -90,
+      "bottom": 0.3,
+      "top": 3.0999999999999996,
+      "width": 4.2
+    },
+    {
+      "level": 1,
+      "number": 9,
+      "x": -47,
+      "bottom": 0.3,
+      "top": 3.0999999999999996,
+      "width": 4.2
+    },
+    {
+      "level": 1,
+      "number": 7,
+      "x": -4,
+      "bottom": 0.3,
+      "top": 3.0999999999999996,
+      "width": 4.2
+    },
+    {
+      "level": 1,
+      "number": 5,
+      "x": 39,
+      "bottom": 0.3,
+      "top": 3.0999999999999996,
+      "width": 4.2
+    },
+    {
+      "level": 1,
+      "number": 3,
+      "x": 82,
+      "bottom": 0.3,
+      "top": 3.0999999999999996,
+      "width": 4.2
+    },
+    {
+      "level": 1,
+      "number": 1,
+      "x": 125,
+      "bottom": 0.3,
+      "top": 3.0999999999999996,
+      "width": 4.2
+    },
+    {
+      "level": 2,
+      "number": 12,
+      "x": -90,
+      "bottom": 6.3,
+      "top": 9.1,
+      "width": 4.2
+    },
+    {
+      "level": 2,
+      "number": 10,
+      "x": -47,
+      "bottom": 6.3,
+      "top": 9.1,
+      "width": 4.2
+    },
+    {
+      "level": 2,
+      "number": 8,
+      "x": -4,
+      "bottom": 6.3,
+      "top": 9.1,
+      "width": 4.2
+    },
+    {
+      "level": 2,
+      "number": 6,
+      "x": 39,
+      "bottom": 6.3,
+      "top": 9.1,
+      "width": 4.2
+    },
+    {
+      "level": 2,
+      "number": 4,
+      "x": 82,
+      "bottom": 6.3,
+      "top": 9.1,
+      "width": 4.2
+    },
+    {
+      "level": 2,
+      "number": 2,
+      "x": 125,
+      "bottom": 6.3,
+      "top": 9.1,
+      "width": 4.2
+    }
+  ],
+  "west_connection": {
+    "x": -104.75,
+    "z_range": [
+      34,
+      42
+    ],
+    "clear_height": 3.4
+  },
+  "side_walls": "1F both ends; west connection retained"
+}

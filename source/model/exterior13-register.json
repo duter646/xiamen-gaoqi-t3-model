@@ -1,0 +1,51 @@
+{
+  "english": "XIAMEN AIRPORT",
+  "chinese": "厦门",
+  "letter_bounds": {
+    "Exterior_XiamenRaisedLetters": {
+      "min": [
+        4.516852855682373,
+        25.0,
+        -13.300000190734863
+      ],
+      "max": [
+        39.21653366088867,
+        30.200000762939453,
+        -13.039999961853027
+      ],
+      "size": [
+        34.69968032836914,
+        5.200000762939453,
+        0.26000022888183594
+      ]
+    },
+    "Exterior_EnglishRaisedLetters": {
+      "min": [
+        8.93603515625,
+        21.5,
+        -13.449999809265137
+      ],
+      "max": [
+        34.06396484375,
+        23.700000762939453,
+        -13.1899995803833
+      ],
+      "size": [
+        25.1279296875,
+        2.200000762939453,
+        0.26000022888183594
+      ]
+    }
+  },
+  "canopy_x_range": [
+    -104.5,
+    147.5
+  ],
+  "changes": [
+    "removed diagonal end-face headers",
+    "stepped boxed cornice ends",
+    "trimmed final canopy bay",
+    "cross-section canopy cable stays"
+  ],
+  "evidence": "user supplied marked photograph; dimensions estimated"
+}

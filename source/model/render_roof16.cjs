@@ -1,0 +1,4 @@
+const {chromium}=require('C:/Users/39015/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');const path=require('path');
+(async()=>{const b=await chromium.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true,args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});const p=await b.newPage({viewport:{width:1600,height:1000}});await p.goto('http://127.0.0.1:8766/revision22/index.html');await p.waitForFunction(()=>window.modelReady,null,{timeout:90000});
+await p.evaluate(()=>{setView('security');camera.position.set(-70,14.2,68);controls.target.set(-20,22,52);controls.update()});await p.screenshot({path:path.join(__dirname,'roof-interior.png')});
+await p.evaluate(()=>{setView('end');camera.position.set(320,25,54);controls.target.set(100,22,54);controls.update()});await p.screenshot({path:path.join(__dirname,'roof-side-level.png')});await b.close()})();

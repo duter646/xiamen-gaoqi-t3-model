@@ -1,0 +1,305 @@
+[
+  {
+    "id": "island-A",
+    "type": "check-in island",
+    "x": -74,
+    "z": 74,
+    "level": 2,
+    "layout_source": "individually traced cyan footprint; blue passenger floor excluded",
+    "detail_source": "B island photos; equipment elsewhere inferred",
+    "exact_counter_count_verified": false
+  },
+  {
+    "id": "island-B",
+    "type": "check-in island",
+    "x": -42,
+    "z": 74,
+    "level": 2,
+    "layout_source": "individually traced cyan footprint; blue passenger floor excluded",
+    "detail_source": "B island photos; equipment elsewhere inferred",
+    "exact_counter_count_verified": false
+  },
+  {
+    "id": "island-C",
+    "type": "check-in island",
+    "x": -10,
+    "z": 74,
+    "level": 2,
+    "layout_source": "individually traced cyan footprint; blue passenger floor excluded",
+    "detail_source": "B island photos; equipment elsewhere inferred",
+    "exact_counter_count_verified": false
+  },
+  {
+    "id": "island-D",
+    "type": "check-in island",
+    "x": 42,
+    "z": 75,
+    "level": 2,
+    "layout_source": "individually traced cyan footprint; blue passenger floor excluded",
+    "detail_source": "B island photos; equipment elsewhere inferred",
+    "exact_counter_count_verified": false
+  },
+  {
+    "id": "island-E",
+    "type": "check-in island",
+    "x": 70,
+    "z": 73,
+    "level": 2,
+    "layout_source": "individually traced cyan footprint; blue passenger floor excluded",
+    "detail_source": "B island photos; equipment elsewhere inferred",
+    "exact_counter_count_verified": false
+  },
+  {
+    "id": "island-F",
+    "type": "check-in island",
+    "x": 98,
+    "z": 73,
+    "level": 2,
+    "layout_source": "individually traced cyan footprint; blue passenger floor excluded",
+    "detail_source": "B island photos; equipment elsewhere inferred",
+    "exact_counter_count_verified": false
+  },
+  {
+    "id": "island-G",
+    "type": "check-in island",
+    "x": 126,
+    "z": 69,
+    "level": 2,
+    "layout_source": "individually traced cyan footprint; blue passenger floor excluded",
+    "detail_source": "B island photos; equipment elsewhere inferred",
+    "exact_counter_count_verified": false
+  },
+  {
+    "id": "escalator--23.5",
+    "type": "paired escalators",
+    "level": [
+      2,
+      3
+    ],
+    "x": -23.5,
+    "z": [
+      78,
+      62
+    ],
+    "note": "placed in inter-island aisles; endpoints estimated, avoid counters and columns"
+  },
+  {
+    "id": "escalator-84.5",
+    "type": "paired escalators",
+    "level": [
+      2,
+      3
+    ],
+    "x": 84.5,
+    "z": [
+      78,
+      62
+    ],
+    "note": "placed in inter-island aisles; endpoints estimated, avoid counters and columns"
+  },
+  {
+    "id": "walkway--367",
+    "type": "paired moving walkway",
+    "span": [
+      -367,
+      -309
+    ],
+    "level": 3,
+    "source": "user diagram + 2017 corridor photo",
+    "exact_endpoints_verified": false
+  },
+  {
+    "id": "walkway--278",
+    "type": "paired moving walkway",
+    "span": [
+      -278,
+      -241
+    ],
+    "level": 3,
+    "source": "user diagram + 2017 corridor photo",
+    "exact_endpoints_verified": false
+  },
+  {
+    "id": "walkway--216",
+    "type": "paired moving walkway",
+    "span": [
+      -216,
+      -187
+    ],
+    "level": 3,
+    "source": "user diagram + 2017 corridor photo",
+    "exact_endpoints_verified": false
+  },
+  {
+    "id": "walkway--160",
+    "type": "paired moving walkway",
+    "span": [
+      -160,
+      -130
+    ],
+    "level": 3,
+    "source": "user diagram + 2017 corridor photo",
+    "exact_endpoints_verified": false
+  },
+  {
+    "id": "walkway-172",
+    "type": "paired moving walkway",
+    "span": [
+      172,
+      189
+    ],
+    "level": 3,
+    "source": "user diagram + 2017 corridor photo",
+    "exact_endpoints_verified": false
+  },
+  {
+    "id": "walkway-218",
+    "type": "paired moving walkway",
+    "span": [
+      218,
+      245
+    ],
+    "level": 3,
+    "source": "user diagram + 2017 corridor photo",
+    "exact_endpoints_verified": false
+  },
+  {
+    "id": "walkway-275",
+    "type": "paired moving walkway",
+    "span": [
+      275,
+      306
+    ],
+    "level": 3,
+    "source": "user diagram + 2017 corridor photo",
+    "exact_endpoints_verified": false
+  },
+  {
+    "id": "walkway-331",
+    "type": "paired moving walkway",
+    "span": [
+      331,
+      357
+    ],
+    "level": 3,
+    "source": "user diagram + 2017 corridor photo",
+    "exact_endpoints_verified": false
+  },
+  {
+    "id": "west-lounge1",
+    "type": "lounge",
+    "x": -325,
+    "z": -1,
+    "level": 3,
+    "layout_source": "user diagram functional blocks, approximate placement",
+    "shop_brand_verified": false
+  },
+  {
+    "id": "west-lounge2",
+    "type": "lounge",
+    "x": -265,
+    "z": -1,
+    "level": 3,
+    "layout_source": "user diagram functional blocks, approximate placement",
+    "shop_brand_verified": false
+  },
+  {
+    "id": "west-cafe",
+    "type": "cafe",
+    "x": -236,
+    "z": -1,
+    "level": 3,
+    "layout_source": "user diagram functional blocks, approximate placement",
+    "shop_brand_verified": false
+  },
+  {
+    "id": "gate5-shop",
+    "type": "shop",
+    "x": -187,
+    "z": -1,
+    "level": 3,
+    "layout_source": "user diagram functional blocks, approximate placement",
+    "shop_brand_verified": false
+  },
+  {
+    "id": "gate6-lounge",
+    "type": "lounge",
+    "x": -132,
+    "z": -1,
+    "level": 3,
+    "layout_source": "user diagram functional blocks, approximate placement",
+    "shop_brand_verified": false
+  },
+  {
+    "id": "gate7-shop",
+    "type": "shop",
+    "x": -90,
+    "z": -1,
+    "level": 3,
+    "layout_source": "user diagram functional blocks, approximate placement",
+    "shop_brand_verified": false
+  },
+  {
+    "id": "gate8-shop",
+    "type": "shop",
+    "x": -18,
+    "z": -1,
+    "level": 3,
+    "layout_source": "user diagram functional blocks, approximate placement",
+    "shop_brand_verified": false
+  },
+  {
+    "id": "gate9-service",
+    "type": "shop",
+    "x": 98,
+    "z": -1,
+    "level": 3,
+    "layout_source": "user diagram functional blocks, approximate placement",
+    "shop_brand_verified": false
+  },
+  {
+    "id": "gate10-dutyfree",
+    "type": "dutyfree",
+    "x": 168,
+    "z": -1,
+    "level": 3,
+    "layout_source": "user diagram functional blocks, approximate placement",
+    "shop_brand_verified": false
+  },
+  {
+    "id": "gate11-dutyfree",
+    "type": "dutyfree",
+    "x": 225,
+    "z": -1,
+    "level": 3,
+    "layout_source": "user diagram functional blocks, approximate placement",
+    "shop_brand_verified": false
+  },
+  {
+    "id": "gate12-cafe",
+    "type": "cafe",
+    "x": 281,
+    "z": -1,
+    "level": 3,
+    "layout_source": "user diagram functional blocks, approximate placement",
+    "shop_brand_verified": false
+  },
+  {
+    "id": "gate15-shop",
+    "type": "shop",
+    "x": 302,
+    "z": -1,
+    "level": 3,
+    "layout_source": "user diagram functional blocks, approximate placement",
+    "shop_brand_verified": false
+  },
+  {
+    "id": "gate16-service",
+    "type": "shop",
+    "x": 351,
+    "z": -1,
+    "level": 3,
+    "layout_source": "user diagram functional blocks, approximate placement",
+    "shop_brand_verified": false
+  }
+]

@@ -1,0 +1,331 @@
+[
+  {
+    "id": "A",
+    "source_polygon_crop_pixels": [
+      [
+        138,
+        859
+      ],
+      [
+        182,
+        834
+      ],
+      [
+        257,
+        878
+      ],
+      [
+        213,
+        903
+      ]
+    ],
+    "source_relative_outline": [
+      [
+        -4.561948226844237,
+        -8.019976058656283
+      ],
+      [
+        4.442241508304662,
+        -7.815726470148121
+      ],
+      [
+        4.561948226844237,
+        8.019976058656312
+      ],
+      [
+        -4.442241508304647,
+        7.8157264701481495
+      ]
+    ],
+    "width_m": 9.123896453688474,
+    "length_m": 16.039952117312595,
+    "center_xz": [
+      -74,
+      74
+    ],
+    "rear_return": false,
+    "status": "guide proportions; counter count, rear equipment and hidden edges inferred"
+  },
+  {
+    "id": "B",
+    "source_polygon_crop_pixels": [
+      [
+        290,
+        774
+      ],
+      [
+        327,
+        752
+      ],
+      [
+        442,
+        819
+      ],
+      [
+        404,
+        842
+      ]
+    ],
+    "source_relative_outline": [
+      [
+        -3.9344231632500595,
+        -12.115629208439344
+      ],
+      [
+        3.8091051922789063,
+        -12.118621876402813
+      ],
+      [
+        4.074704474038583,
+        12.079343109381995
+      ],
+      [
+        -3.949386503067501,
+        12.154907975460105
+      ]
+    ],
+    "width_m": 8.024090977106084,
+    "length_m": 24.273529851862918,
+    "center_xz": [
+      -42,
+      74
+    ],
+    "rear_return": false,
+    "status": "guide proportions; counter count, rear equipment and hidden edges inferred"
+  },
+  {
+    "id": "C",
+    "source_polygon_crop_pixels": [
+      [
+        452,
+        673
+      ],
+      [
+        481,
+        656
+      ],
+      [
+        558,
+        701
+      ],
+      [
+        528,
+        718
+      ]
+    ],
+    "source_relative_outline": [
+      [
+        -3.063743827622332,
+        -8.107511596588353
+      ],
+      [
+        2.9627412838545553,
+        -8.06636241209037
+      ],
+      [
+        3.116115516983399,
+        8.160631452940294
+      ],
+      [
+        -3.015112973215622,
+        8.01324255573843
+      ]
+    ],
+    "width_m": 6.179859344605731,
+    "length_m": 16.268143049528646,
+    "center_xz": [
+      -10,
+      74
+    ],
+    "rear_return": false,
+    "status": "guide proportions; counter count, rear equipment and hidden edges inferred"
+  },
+  {
+    "id": "D",
+    "source_polygon_crop_pixels": [
+      [
+        615,
+        531
+      ],
+      [
+        658,
+        506
+      ],
+      [
+        735,
+        551
+      ],
+      [
+        692,
+        576
+      ]
+    ],
+    "source_relative_outline": [
+      [
+        -4.526410294777804,
+        -8.162501870417458
+      ],
+      [
+        4.373036061648964,
+        -8.064491994613178
+      ],
+      [
+        4.5264102947777936,
+        8.162501870417486
+      ],
+      [
+        -4.373036061648957,
+        8.064491994613206
+      ]
+    ],
+    "width_m": 9.052820589555598,
+    "length_m": 16.325003740834944,
+    "center_xz": [
+      42,
+      75
+    ],
+    "rear_return": false,
+    "status": "guide proportions; counter count, rear equipment and hidden edges inferred"
+  },
+  {
+    "id": "E",
+    "source_polygon_crop_pixels": [
+      [
+        867,
+        390
+      ],
+      [
+        911,
+        364
+      ],
+      [
+        986,
+        407
+      ],
+      [
+        943,
+        433
+      ]
+    ],
+    "source_relative_outline": [
+      [
+        -4.763953314379773,
+        -7.867724076013786
+      ],
+      [
+        4.4160556636241175,
+        -7.84228639832412
+      ],
+      [
+        4.711581625018706,
+        7.814604219661817
+      ],
+      [
+        -4.363683974263051,
+        7.895406254676033
+      ]
+    ],
+    "width_m": 9.475534939398479,
+    "length_m": 15.763130330689819,
+    "center_xz": [
+      70,
+      73
+    ],
+    "rear_return": false,
+    "status": "guide proportions; counter count, rear equipment and hidden edges inferred"
+  },
+  {
+    "id": "F",
+    "source_polygon_crop_pixels": [
+      [
+        1008,
+        227
+      ],
+      [
+        1045,
+        205
+      ],
+      [
+        1194,
+        291
+      ],
+      [
+        1158,
+        313
+      ]
+    ],
+    "source_relative_outline": [
+      [
+        -4.141104294478538,
+        -15.628834355828218
+      ],
+      [
+        3.602424061050428,
+        -15.631827023791715
+      ],
+      [
+        4.088732605117457,
+        15.575714499476277
+      ],
+      [
+        -3.550052371689361,
+        15.684946880143656
+      ]
+    ],
+    "width_m": 8.229836899595995,
+    "length_m": 31.31677390393537,
+    "center_xz": [
+      98,
+      73
+    ],
+    "rear_return": true,
+    "status": "guide proportions; counter count, rear equipment and hidden edges inferred"
+  },
+  {
+    "id": "G",
+    "source_polygon_crop_pixels": [
+      [
+        1098,
+        141
+      ],
+      [
+        1128,
+        124
+      ],
+      [
+        1360,
+        257
+      ],
+      [
+        1330,
+        275
+      ]
+    ],
+    "source_relative_outline": [
+      [
+        -3.479911716295078,
+        -24.33319616938502
+      ],
+      [
+        2.651316773903929,
+        -24.185807272183155
+      ],
+      [
+        3.5678213377225774,
+        24.243790213975757
+      ],
+      [
+        -2.7392263953314426,
+        24.27521322759239
+      ]
+    ],
+    "width_m": 7.047733054017655,
+    "length_m": 48.60840939697741,
+    "center_xz": [
+      126,
+      69
+    ],
+    "rear_return": true,
+    "status": "guide proportions; counter count, rear equipment and hidden edges inferred"
+  }
+]

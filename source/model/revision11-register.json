@@ -1,0 +1,47 @@
+{
+  "west_gate_doors": [
+    {
+      "number": 22,
+      "x": -185,
+      "z": 25,
+      "width": 2.6,
+      "bottom": 0.28,
+      "top": 3.08
+    },
+    {
+      "number": 23,
+      "x": -125,
+      "z": 25,
+      "width": 2.6,
+      "bottom": 0.28,
+      "top": 3.08
+    },
+    {
+      "number": 25,
+      "x": -185,
+      "z": 51,
+      "width": 2.6,
+      "bottom": 0.28,
+      "top": 3.08
+    },
+    {
+      "number": 26,
+      "x": -125,
+      "z": 51,
+      "width": 2.6,
+      "bottom": 0.28,
+      "top": 3.08
+    }
+  ],
+  "checkin_void": {
+    "z_min": 68,
+    "z_max": 96,
+    "upper_floor_removed": true
+  },
+  "arrival_apron_wall": {
+    "z": 12,
+    "bottom": 0.3,
+    "top": 6.3
+  },
+  "facade": "Photo-based louver rhythm and stepped projecting cornices; dimensions estimated"
+}

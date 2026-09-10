@@ -1,0 +1,28 @@
+{
+  "security": [
+    {
+      "bank": "D",
+      "lanes": 18,
+      "pedestrian_aperture_m": 1.28,
+      "scanner_aperture_m": 1.36,
+      "partition_height_m": 2.55
+    },
+    {
+      "bank": "I",
+      "lanes": 7,
+      "pedestrian_aperture_m": 1.28,
+      "scanner_aperture_m": 1.36,
+      "partition_height_m": 2.55
+    }
+  ],
+  "airside_lettering": {
+    "text": "厦门",
+    "font": "楷体",
+    "geometry": "extruded glyph contours",
+    "height_m": 5.2,
+    "nonuniform_scaling": false
+  },
+  "gallery_sign_center_y": 10.28,
+  "roof_airside_artificial_raise_removed_m": 5.8,
+  "checkin_to_security_escalator_axis": "east-west / X"
+}

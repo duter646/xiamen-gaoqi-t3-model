@@ -1,0 +1,15 @@
+from pathlib import Path
+R=Path(__file__).resolve().parent
+p=R/'index.html';s=p.read_text(encoding='utf-8')
+s=s.replace('安检出口 / 取包通道 / 候机廊连接','到达层 / 三层连接 / 洞口隔断修复')
+s=s.replace('<button data-view="checkinplan">值机平面</button>','<button data-view="checkinplan">值机平面</button><button data-view="arrival">到达行李厅</button><button data-view="arrivalplan">到达层平面</button><button data-view="arrivalstairs">到达扶梯连接</button>')
+s=s.replace('const views={','const views={arrival:[[-75,2.1,72],[-45,2,48]],arrivalplan:[[22,200,54],[22,.3,53.99]],arrivalstairs:[[-53,9,26],[-77,7,22]],')
+s=s.replace("renderer.clippingPlanes=name==='levels'?[new THREE.Plane(new THREE.Vector3(1,0,0),0)]:[];", "renderer.clippingPlanes=name==='levels'?[new THREE.Plane(new THREE.Vector3(1,0,0),0)]:name==='arrivalplan'?[new THREE.Plane(new THREE.Vector3(0,-1,0),4.5)]:name==='checkinplan'?[new THREE.Plane(new THREE.Vector3(0,-1,0),11.4)]:[];")
+s=s.replace("'stairs','exit'].includes(name)","'stairs','exit','arrivalplan'].includes(name)")
+s=s.replace('2F：值机出发大厅','1F：国内 / 国际到达与行李提取<br>2F：值机出发大厅及独立到达通道')
+s=s.replace('.panel{position:absolute;', '.panel{max-height:94vh;overflow-y:auto;position:absolute;')
+p.write_text(s,encoding='utf-8')
+p=R/'render_check.cjs';s=p.read_text(encoding='utf-8').replace("['exit','isolation','stairs','corridor']","['arrival','arrivalplan','arrivalstairs','checkinplan','exit','isolation']")
+p.write_text(s,encoding='utf-8')
+p=R/'check_interior.py';s=p.read_text(encoding='utf-8').replace("'Interior_SecurityIsolation'","'Interior_SecurityIsolation','Interior_SupportedOpening'")
+p.write_text(s,encoding='utf-8')

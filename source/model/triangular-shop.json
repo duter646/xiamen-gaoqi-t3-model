@@ -1,0 +1,28 @@
+{
+  "outline_xz": [
+    [
+      -56.0,
+      30.1
+    ],
+    [
+      -42.372377674697034,
+      30.1
+    ],
+    [
+      -42.372377674697034,
+      39.096588358521615
+    ]
+  ],
+  "boundary": "east and rear sides closed toward screened area",
+  "entrance": "unscreened diagonal side, 2m clear",
+  "door_xz": [
+    [
+      -50.020731861459325,
+      34.04735140463898
+    ],
+    [
+      -48.35164581323771,
+      35.14923695388263
+    ]
+  ]
+}

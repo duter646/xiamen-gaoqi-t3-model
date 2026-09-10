@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "landside_drops": 5,
+  "airside_drops": 2,
+  "terrace_pitch_m": 10.5,
+  "drops_m": {
+    "1": [
+      5.066666666666666,
+      4.106666666666666,
+      3.0933333333333337,
+      2.453333333333333,
+      1.2800000000000011
+    ],
+    "-1": [
+      6.23875,
+      5.634999999999998
+    ]
+  },
+  "triangular_supports": 189,
+  "curved_ribs_land_on_corridor": true,
+  "column_connections": 84,
+  "mounted_signs": 226,
+  "dimensions": "estimated from images; not measured"
+}

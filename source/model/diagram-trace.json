@@ -1,0 +1,1727 @@
+{
+  "source": "../revision4/user-layout-reference.jpg",
+  "image_size": [
+    2250,
+    1780
+  ],
+  "method": "manual symbol inventory and route tracing; oblique guide diagram approximately deprojected, not surveyed",
+  "facilities": [
+    {
+      "id": "L2-L01",
+      "level": 2,
+      "kind": "accessible_lift",
+      "pixel": [
+        980,
+        1378
+      ],
+      "label": "国内西后侧无障碍电梯",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -78.778,
+        -2.917
+      ]
+    },
+    {
+      "id": "L2-L02",
+      "level": 2,
+      "kind": "lift",
+      "pixel": [
+        1214,
+        1493
+      ],
+      "label": "国内前侧电梯",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -70.196,
+        87.929
+      ]
+    },
+    {
+      "id": "L2-L03",
+      "level": 2,
+      "kind": "toilet",
+      "pixel": [
+        1497,
+        1120
+      ],
+      "label": "国际后侧卫生间（已纠正电梯误读）",
+      "status": "glyph checked against legend",
+      "estimated_world_xz": [
+        120.25,
+        14.667
+      ]
+    },
+    {
+      "id": "L2-L04",
+      "level": 2,
+      "kind": "lift",
+      "pixel": [
+        1607,
+        1260
+      ],
+      "label": "国际前侧电梯",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        94.064,
+        88.108
+      ]
+    },
+    {
+      "id": "L2-E01",
+      "level": 2,
+      "kind": "escalator",
+      "pixel": [
+        1114,
+        1385
+      ],
+      "label": "国内后侧上行扶梯",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -53.168,
+        28.058
+      ]
+    },
+    {
+      "id": "L2-E02",
+      "level": 2,
+      "kind": "down_escalator",
+      "pixel": [
+        1238,
+        1468
+      ],
+      "label": "国内前侧下行扶梯",
+      "status": "down arrow checked against legend; lower destination requires arrival guide",
+      "estimated_world_xz": [
+        -56.378,
+        84.088
+      ]
+    },
+    {
+      "id": "L2-E03",
+      "level": 2,
+      "kind": "escalator",
+      "pixel": [
+        1471,
+        1170
+      ],
+      "label": "国际后侧上行扶梯",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        97.221,
+        27.024
+      ]
+    },
+    {
+      "id": "L2-E04",
+      "level": 2,
+      "kind": "down_escalator",
+      "pixel": [
+        1623,
+        1235
+      ],
+      "label": "国际前侧下行扶梯",
+      "status": "down arrow checked against legend; lower destination requires arrival guide",
+      "estimated_world_xz": [
+        106.206,
+        82.567
+      ]
+    },
+    {
+      "id": "L2-E05",
+      "level": 2,
+      "kind": "down_escalator",
+      "pixel": [
+        1097,
+        1530
+      ],
+      "label": "国内远机位区域扶梯",
+      "status": "down arrow checked against legend; lower destination requires arrival guide",
+      "estimated_world_xz": [
+        -107.717,
+        76.301
+      ]
+    },
+    {
+      "id": "L3-E01",
+      "level": 3,
+      "kind": "escalator",
+      "pixel": [
+        976,
+        1007
+      ],
+      "label": "国内西端连接扶梯",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -103.879,
+        20.909
+      ]
+    },
+    {
+      "id": "L3-E02",
+      "level": 3,
+      "kind": "escalator",
+      "pixel": [
+        1071,
+        1050
+      ],
+      "label": "国内西前侧连接扶梯",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -99.098,
+        56.472
+      ]
+    },
+    {
+      "id": "L3-E03",
+      "level": 3,
+      "kind": "escalator",
+      "pixel": [
+        1093,
+        944
+      ],
+      "label": "国内值机上层连接扶梯",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -57.216,
+        23.238
+      ]
+    },
+    {
+      "id": "L3-E04",
+      "level": 3,
+      "kind": "arrivals_escalator",
+      "pixel": [
+        1136,
+        899
+      ],
+      "label": "国内到达下行扶梯",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -32.384,
+        16.282
+      ]
+    },
+    {
+      "id": "L3-E05",
+      "level": 3,
+      "kind": "arrivals_escalator",
+      "pixel": [
+        1311,
+        801
+      ],
+      "label": "国际到达下行扶梯",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        38.737,
+        18.419
+      ]
+    },
+    {
+      "id": "L3-E06",
+      "level": 3,
+      "kind": "escalator",
+      "pixel": [
+        1472,
+        730
+      ],
+      "label": "国际值机上层连接扶梯",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        97.43,
+        27.237
+      ]
+    },
+    {
+      "id": "L3-L01",
+      "level": 3,
+      "kind": "lift",
+      "pixel": [
+        993,
+        933
+      ],
+      "label": "国内长廊侧电梯",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -74.296,
+        -1.943
+      ]
+    },
+    {
+      "id": "L3-L02",
+      "level": 3,
+      "kind": "lift",
+      "pixel": [
+        1453,
+        670
+      ],
+      "label": "国际长廊侧电梯",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        114.549,
+        1.742
+      ]
+    },
+    {
+      "id": "L3-E07",
+      "level": 3,
+      "kind": "escalator",
+      "pixel": [
+        1967,
+        348
+      ],
+      "label": "国际东端远机位下行扶梯",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        335.452,
+        -4.198
+      ]
+    },
+    {
+      "id": "L3-L03",
+      "level": 3,
+      "kind": "unresolved",
+      "pixel": [
+        2021,
+        344
+      ],
+      "label": "东端重叠图标，电梯位置待复核",
+      "status": "not modelled; overlapping toilet/elevator symbols unresolved",
+      "estimated_world_xz": [
+        348.171,
+        5.845
+      ]
+    },
+    {
+      "id": "SEC-D",
+      "level": 3,
+      "kind": "security",
+      "pixel": [
+        1273,
+        914
+      ],
+      "label": "国内安全检查",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -8.959,
+        50.756
+      ]
+    },
+    {
+      "id": "SEC-I",
+      "level": 3,
+      "kind": "security",
+      "pixel": [
+        1543,
+        723
+      ],
+      "label": "国际安全检查",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        114.766,
+        39.819
+      ]
+    },
+    {
+      "id": "IMM-I",
+      "level": 3,
+      "kind": "immigration",
+      "pixel": [
+        1512,
+        798
+      ],
+      "label": "国际出境边防检查",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        81.899,
+        60.054
+      ]
+    },
+    {
+      "id": "CUS-I",
+      "level": 2,
+      "kind": "customs",
+      "pixel": [
+        1526,
+        1264
+      ],
+      "label": "国际值机层海关",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        75.689,
+        72.327
+      ]
+    },
+    {
+      "id": "QUA-I",
+      "level": 2,
+      "kind": "quarantine",
+      "pixel": [
+        1535,
+        1288
+      ],
+      "label": "国际值机层检验检疫",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        69.135,
+        82.822
+      ]
+    },
+    {
+      "id": "ARR-D",
+      "level": 3,
+      "kind": "arrivals",
+      "pixel": [
+        1026,
+        903
+      ],
+      "label": "国内到达联检区域",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -56.834,
+        -5.66
+      ]
+    },
+    {
+      "id": "ARR-I",
+      "level": 3,
+      "kind": "arrivals",
+      "pixel": [
+        1289,
+        754
+      ],
+      "label": "国际到达联检区域",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        50.655,
+        -3.064
+      ]
+    },
+    {
+      "id": "L2-WC01",
+      "level": 2,
+      "kind": "toilet",
+      "pixel": [
+        1104,
+        1459
+      ],
+      "label": "卫生间",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -81.284,
+        52.398
+      ]
+    },
+    {
+      "id": "L2-WC02",
+      "level": 2,
+      "kind": "toilet",
+      "pixel": [
+        1076,
+        1451
+      ],
+      "label": "卫生间",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -84.337,
+        43.587
+      ]
+    },
+    {
+      "id": "L2-WC03",
+      "level": 2,
+      "kind": "toilet",
+      "pixel": [
+        1311,
+        1308
+      ],
+      "label": "卫生间",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        15.177,
+        42.38
+      ]
+    },
+    {
+      "id": "L2-WC04",
+      "level": 2,
+      "kind": "toilet",
+      "pixel": [
+        1483,
+        1317
+      ],
+      "label": "卫生间",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        48.044,
+        82.145
+      ]
+    },
+    {
+      "id": "L2-WC05",
+      "level": 2,
+      "kind": "toilet",
+      "pixel": [
+        1581,
+        1174
+      ],
+      "label": "卫生间",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        118.858,
+        51.827
+      ]
+    },
+    {
+      "id": "L2-WC06",
+      "level": 2,
+      "kind": "toilet",
+      "pixel": [
+        1652,
+        1225
+      ],
+      "label": "卫生间",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        115.798,
+        85.152
+      ]
+    },
+    {
+      "id": "L2-CF01",
+      "level": 2,
+      "kind": "cafe",
+      "pixel": [
+        976,
+        1428
+      ],
+      "label": "咖啡",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -97.198,
+        14.114
+      ]
+    },
+    {
+      "id": "L2-CF02",
+      "level": 2,
+      "kind": "cafe",
+      "pixel": [
+        1122,
+        1427
+      ],
+      "label": "咖啡",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -66.261,
+        44.778
+      ]
+    },
+    {
+      "id": "L2-CF03",
+      "level": 2,
+      "kind": "cafe",
+      "pixel": [
+        1417,
+        1222
+      ],
+      "label": "咖啡",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        67.624,
+        34.147
+      ]
+    },
+    {
+      "id": "L2-SH01",
+      "level": 2,
+      "kind": "shop",
+      "pixel": [
+        1121,
+        1507
+      ],
+      "label": "商场",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -94.602,
+        73.176
+      ]
+    },
+    {
+      "id": "L2-SH02",
+      "level": 2,
+      "kind": "shop",
+      "pixel": [
+        1154,
+        1401
+      ],
+      "label": "商场",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -50.415,
+        42.279
+      ]
+    },
+    {
+      "id": "L2-SH03",
+      "level": 2,
+      "kind": "shop",
+      "pixel": [
+        1418,
+        1383
+      ],
+      "label": "商场",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        11.219,
+        91.937
+      ]
+    },
+    {
+      "id": "L2-SH04",
+      "level": 2,
+      "kind": "shop",
+      "pixel": [
+        1453,
+        1197
+      ],
+      "label": "商场",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        83.956,
+        32.855
+      ]
+    },
+    {
+      "id": "L2-PK01",
+      "level": 2,
+      "kind": "packaging",
+      "pixel": [
+        1086,
+        1490
+      ],
+      "label": "行李打包",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -95.956,
+        59.659
+      ]
+    },
+    {
+      "id": "L2-PK02",
+      "level": 2,
+      "kind": "packaging",
+      "pixel": [
+        1336,
+        1437
+      ],
+      "label": "行李打包",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -24.947,
+        93.825
+      ]
+    },
+    {
+      "id": "L2-PK03",
+      "level": 2,
+      "kind": "packaging",
+      "pixel": [
+        1540,
+        1241
+      ],
+      "label": "行李打包",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        86.709,
+        67.077
+      ]
+    },
+    {
+      "id": "L2-ENQ",
+      "level": 2,
+      "kind": "enquiry",
+      "pixel": [
+        1309,
+        1420
+      ],
+      "label": "问询",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -24.625,
+        82.008
+      ]
+    },
+    {
+      "id": "L2-ATM",
+      "level": 2,
+      "kind": "atm",
+      "pixel": [
+        1240,
+        1491
+      ],
+      "label": "自动取款机",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -64.046,
+        92.739
+      ]
+    },
+    {
+      "id": "L2-MED",
+      "level": 2,
+      "kind": "medical",
+      "pixel": [
+        1279,
+        1327
+      ],
+      "label": "急救",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        1.792,
+        42.375
+      ]
+    },
+    {
+      "id": "L2-POL",
+      "level": 2,
+      "kind": "police",
+      "pixel": [
+        1257,
+        1327
+      ],
+      "label": "公安",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -2.816,
+        37.701
+      ]
+    },
+    {
+      "id": "L2-SMK",
+      "level": 2,
+      "kind": "smoking",
+      "pixel": [
+        1036,
+        1454
+      ],
+      "label": "吸烟室",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -93.771,
+        36.161
+      ]
+    },
+    {
+      "id": "L2-BANK",
+      "level": 2,
+      "kind": "bank",
+      "pixel": [
+        1459,
+        1333
+      ],
+      "label": "银行",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        37.39,
+        82.767
+      ]
+    },
+    {
+      "id": "L2-FX",
+      "level": 2,
+      "kind": "exchange",
+      "pixel": [
+        1453,
+        1362
+      ],
+      "label": "货币兑换",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        25.936,
+        91.863
+      ]
+    },
+    {
+      "id": "L2-INS",
+      "level": 2,
+      "kind": "insurance",
+      "pixel": [
+        1476,
+        1356
+      ],
+      "label": "航意险",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        32.864,
+        94.605
+      ]
+    },
+    {
+      "id": "L2-DINE1",
+      "level": 2,
+      "kind": "restaurant",
+      "pixel": [
+        1145,
+        1530
+      ],
+      "label": "国内餐厅",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -97.662,
+        86.5
+      ]
+    },
+    {
+      "id": "L2-DINE2",
+      "level": 2,
+      "kind": "restaurant",
+      "pixel": [
+        1701,
+        1187
+      ],
+      "label": "国际餐厅",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        139.425,
+        81.974
+      ]
+    },
+    {
+      "id": "L2-T4",
+      "level": 2,
+      "kind": "transfer",
+      "pixel": [
+        1209,
+        1447
+      ],
+      "label": "A7 转 T4 柜台",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -55.068,
+        70.416
+      ]
+    },
+    {
+      "id": "L3-WC01",
+      "level": 3,
+      "kind": "toilet",
+      "pixel": [
+        406,
+        1274
+      ],
+      "label": "候机廊卫生间",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -317.174,
+        -4.719
+      ]
+    },
+    {
+      "id": "L3-WC02",
+      "level": 3,
+      "kind": "toilet",
+      "pixel": [
+        668,
+        1129
+      ],
+      "label": "候机廊卫生间",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -211.301,
+        -0.905
+      ]
+    },
+    {
+      "id": "L3-WC03",
+      "level": 3,
+      "kind": "toilet",
+      "pixel": [
+        912,
+        967
+      ],
+      "label": "候机廊卫生间",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -103.22,
+        -6.995
+      ]
+    },
+    {
+      "id": "L3-WC04",
+      "level": 3,
+      "kind": "toilet",
+      "pixel": [
+        1052,
+        857
+      ],
+      "label": "候机廊卫生间",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -35.212,
+        -16.586
+      ]
+    },
+    {
+      "id": "L3-WC05",
+      "level": 3,
+      "kind": "toilet",
+      "pixel": [
+        1094,
+        866
+      ],
+      "label": "候机廊卫生间",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -29.578,
+        -4.444
+      ]
+    },
+    {
+      "id": "L3-WC06",
+      "level": 3,
+      "kind": "toilet",
+      "pixel": [
+        1231,
+        763
+      ],
+      "label": "候机廊卫生间",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        35.34,
+        -12.169
+      ]
+    },
+    {
+      "id": "L3-WC07",
+      "level": 3,
+      "kind": "toilet",
+      "pixel": [
+        1392,
+        704
+      ],
+      "label": "候机廊卫生间",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        89.814,
+        0.94
+      ]
+    },
+    {
+      "id": "L3-WC08",
+      "level": 3,
+      "kind": "toilet",
+      "pixel": [
+        1750,
+        488
+      ],
+      "label": "候机廊卫生间",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        240.764,
+        -0.239
+      ]
+    },
+    {
+      "id": "L3-WC09",
+      "level": 3,
+      "kind": "toilet",
+      "pixel": [
+        2021,
+        344
+      ],
+      "label": "候机廊卫生间",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        348.171,
+        5.845
+      ]
+    },
+    {
+      "id": "L3-CF01",
+      "level": 3,
+      "kind": "cafe",
+      "pixel": [
+        261,
+        1304
+      ],
+      "label": "候机廊咖啡",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -358.098,
+        -24.8
+      ]
+    },
+    {
+      "id": "L3-CF02",
+      "level": 3,
+      "kind": "cafe",
+      "pixel": [
+        544,
+        1166
+      ],
+      "label": "候机廊咖啡",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -250.288,
+        -14.02
+      ]
+    },
+    {
+      "id": "L3-CF03",
+      "level": 3,
+      "kind": "cafe",
+      "pixel": [
+        771,
+        1011
+      ],
+      "label": "候机廊咖啡",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -148.23,
+        -21.219
+      ]
+    },
+    {
+      "id": "L3-CF04",
+      "level": 3,
+      "kind": "cafe",
+      "pixel": [
+        1833,
+        396
+      ],
+      "label": "候机廊咖啡",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        290.502,
+        -15.505
+      ]
+    },
+    {
+      "id": "L3-SMK01",
+      "level": 3,
+      "kind": "smoking",
+      "pixel": [
+        715,
+        1024
+      ],
+      "label": "候机廊吸烟室",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -164.533,
+        -28.469
+      ]
+    },
+    {
+      "id": "L3-SMK02",
+      "level": 3,
+      "kind": "smoking",
+      "pixel": [
+        1823,
+        351
+      ],
+      "label": "候机廊吸烟室",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        304.231,
+        -33.723
+      ]
+    },
+    {
+      "id": "L3-LNG01",
+      "level": 3,
+      "kind": "lounge",
+      "pixel": [
+        467,
+        1212
+      ],
+      "label": "候机休息室",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -282.593,
+        -13.93
+      ]
+    },
+    {
+      "id": "L3-LNG02",
+      "level": 3,
+      "kind": "lounge",
+      "pixel": [
+        840,
+        925
+      ],
+      "label": "候机休息室",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        -103.535,
+        -37.314
+      ]
+    },
+    {
+      "id": "L3-LNG03",
+      "level": 3,
+      "kind": "lounge",
+      "pixel": [
+        1582,
+        539
+      ],
+      "label": "候机休息室",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        187.637,
+        -17.697
+      ]
+    },
+    {
+      "id": "L3-LNG04",
+      "level": 3,
+      "kind": "lounge",
+      "pixel": [
+        2140,
+        265
+      ],
+      "label": "候机休息室",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        400.88,
+        2.878
+      ]
+    },
+    {
+      "id": "L3-DF01",
+      "level": 3,
+      "kind": "dutyfree",
+      "pixel": [
+        1224,
+        821
+      ],
+      "label": "免税商店",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        13.479,
+        7.086
+      ]
+    },
+    {
+      "id": "L3-DF02",
+      "level": 3,
+      "kind": "dutyfree",
+      "pixel": [
+        1538,
+        655
+      ],
+      "label": "免税商店",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        137.63,
+        14.439
+      ]
+    },
+    {
+      "id": "L3-DF03",
+      "level": 3,
+      "kind": "dutyfree",
+      "pixel": [
+        1532,
+        607
+      ],
+      "label": "免税商店",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        153.251,
+        -4.002
+      ]
+    },
+    {
+      "id": "L3-DF04",
+      "level": 3,
+      "kind": "dutyfree",
+      "pixel": [
+        1793,
+        464
+      ],
+      "label": "免税商店",
+      "status": "symbol identified; footprint estimated",
+      "estimated_world_xz": [
+        258.212,
+        0.315
+      ]
+    },
+    {
+      "id": "L3-PK01",
+      "level": 3,
+      "kind": "shop",
+      "pixel": [
+        241,
+        1327
+      ],
+      "label": "商场（已按手提袋与雪花图标纠正）",
+      "status": "glyph checked against legend",
+      "estimated_world_xz": [
+        -370.376,
+        -20.824
+      ]
+    },
+    {
+      "id": "L3-PK02",
+      "level": 3,
+      "kind": "shop",
+      "pixel": [
+        384,
+        1264
+      ],
+      "label": "商场（已按手提袋与雪花图标纠正）",
+      "status": "glyph checked against legend",
+      "estimated_world_xz": [
+        -318.266,
+        -12.97
+      ]
+    },
+    {
+      "id": "L3-PK03",
+      "level": 3,
+      "kind": "shop",
+      "pixel": [
+        642,
+        1114
+      ],
+      "label": "商场（已按手提袋与雪花图标纠正）",
+      "status": "glyph checked against legend",
+      "estimated_world_xz": [
+        -211.473,
+        -11.794
+      ]
+    },
+    {
+      "id": "L3-PK04",
+      "level": 3,
+      "kind": "shop",
+      "pixel": [
+        759,
+        1033
+      ],
+      "label": "商场（已按手提袋与雪花图标纠正）",
+      "status": "glyph checked against legend",
+      "estimated_world_xz": [
+        -158.48,
+        -15.901
+      ]
+    },
+    {
+      "id": "L3-PK05",
+      "level": 3,
+      "kind": "shop",
+      "pixel": [
+        935,
+        949
+      ],
+      "label": "商场（已按手提袋与雪花图标纠正）",
+      "status": "glyph checked against legend",
+      "estimated_world_xz": [
+        -92.073,
+        -8.545
+      ]
+    },
+    {
+      "id": "L3-PK06",
+      "level": 3,
+      "kind": "shop",
+      "pixel": [
+        1038,
+        982
+      ],
+      "label": "商场（已按手提袋与雪花图标纠正）",
+      "status": "glyph checked against legend",
+      "estimated_world_xz": [
+        -82.1,
+        25.142
+      ]
+    },
+    {
+      "id": "L3-PK07",
+      "level": 3,
+      "kind": "shop",
+      "pixel": [
+        1115,
+        862
+      ],
+      "label": "商场（已按手提袋与雪花图标纠正）",
+      "status": "glyph checked against legend",
+      "estimated_world_xz": [
+        -23.773,
+        -1.412
+      ]
+    },
+    {
+      "id": "L3-PK08",
+      "level": 3,
+      "kind": "shop",
+      "pixel": [
+        1206,
+        774
+      ],
+      "label": "商场（已按手提袋与雪花图标纠正）",
+      "status": "glyph checked against legend",
+      "estimated_world_xz": [
+        26.235,
+        -13.547
+      ]
+    },
+    {
+      "id": "L3-PK09",
+      "level": 3,
+      "kind": "shop",
+      "pixel": [
+        1407,
+        678
+      ],
+      "label": "商场（已按手提袋与雪花图标纠正）",
+      "status": "glyph checked against legend",
+      "estimated_world_xz": [
+        102.099,
+        -5.171
+      ]
+    },
+    {
+      "id": "L3-PK10",
+      "level": 3,
+      "kind": "shop",
+      "pixel": [
+        1762,
+        466
+      ],
+      "label": "商场（已按手提袋与雪花图标纠正）",
+      "status": "glyph checked against legend",
+      "estimated_world_xz": [
+        251.014,
+        -5.557
+      ]
+    },
+    {
+      "id": "L3-PK11",
+      "level": 3,
+      "kind": "shop",
+      "pixel": [
+        1883,
+        386
+      ],
+      "label": "商场（已按手提袋与雪花图标纠正）",
+      "status": "glyph checked against legend",
+      "estimated_world_xz": [
+        304.493,
+        -8.457
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "D-departure",
+      "label": "国内出发：值机→上楼→绕行前厅→安检→候机廊",
+      "level": 3,
+      "color": "#ffd34e",
+      "points": [
+        [
+          1093,
+          944
+        ],
+        [
+          1098,
+          970
+        ],
+        [
+          1174,
+          1015
+        ],
+        [
+          1265,
+          951
+        ],
+        [
+          1270,
+          932
+        ],
+        [
+          1218,
+          902
+        ],
+        [
+          1161,
+          867
+        ],
+        [
+          1103,
+          900
+        ],
+        [
+          1060,
+          926
+        ],
+        [
+          1002,
+          960
+        ]
+      ],
+      "estimated_world_xz": [
+        [
+          -57.216,
+          23.238
+        ],
+        [
+          -65.311,
+          33.599
+        ],
+        [
+          -65.214,
+          65.841
+        ],
+        [
+          -23.645,
+          62.288
+        ],
+        [
+          -15.917,
+          56.556
+        ],
+        [
+          -16.261,
+          34.778
+        ],
+        [
+          -15.894,
+          10.15
+        ],
+        [
+          -39.649,
+          9.628
+        ],
+        [
+          -57.799,
+          9.789
+        ],
+        [
+          -81.905,
+          9.625
+        ]
+      ]
+    },
+    {
+      "id": "I-departure",
+      "label": "国际出发：值机层海关检疫→上楼→边检→安检→国际候机廊",
+      "level": 3,
+      "color": "#ff736b",
+      "points": [
+        [
+          1472,
+          730
+        ],
+        [
+          1450,
+          744
+        ],
+        [
+          1450,
+          762
+        ],
+        [
+          1510,
+          798
+        ],
+        [
+          1588,
+          751
+        ],
+        [
+          1607,
+          736
+        ],
+        [
+          1532,
+          694
+        ],
+        [
+          1493,
+          671
+        ],
+        [
+          1550,
+          638
+        ]
+      ],
+      "estimated_world_xz": [
+        [
+          97.43,
+          27.237
+        ],
+        [
+          87.899,
+          27.569
+        ],
+        [
+          81.569,
+          34.006
+        ],
+        [
+          81.48,
+          59.629
+        ],
+        [
+          114.347,
+          59.394
+        ],
+        [
+          123.601,
+          58.067
+        ],
+        [
+          122.659,
+          27.111
+        ],
+        [
+          122.576,
+          10.599
+        ],
+        [
+          146.121,
+          10.909
+        ]
+      ]
+    },
+    {
+      "id": "D-arrival",
+      "label": "国内到达：候机廊→到达联检→专用下行",
+      "level": 3,
+      "color": "#55dfdc",
+      "points": [
+        [
+          949,
+          932
+        ],
+        [
+          998,
+          903
+        ],
+        [
+          1026,
+          903
+        ],
+        [
+          1052,
+          918
+        ],
+        [
+          1100,
+          891
+        ],
+        [
+          1136,
+          899
+        ]
+      ],
+      "estimated_world_xz": [
+        [
+          -83.162,
+          -11.65
+        ],
+        [
+          -62.7,
+          -11.61
+        ],
+        [
+          -56.834,
+          -5.66
+        ],
+        [
+          -56.662,
+          5.229
+        ],
+        [
+          -37.112,
+          5.772
+        ],
+        [
+          -32.384,
+          16.282
+        ]
+      ]
+    },
+    {
+      "id": "I-arrival",
+      "label": "国际到达：候机廊→到达联检→专用下行",
+      "level": 3,
+      "color": "#55dfdc",
+      "points": [
+        [
+          1370,
+          729
+        ],
+        [
+          1340,
+          750
+        ],
+        [
+          1290,
+          754
+        ],
+        [
+          1254,
+          777
+        ],
+        [
+          1275,
+          792
+        ],
+        [
+          1311,
+          801
+        ]
+      ],
+      "estimated_world_xz": [
+        [
+          76.414,
+          5.206
+        ],
+        [
+          62.745,
+          6.342
+        ],
+        [
+          50.865,
+          -2.852
+        ],
+        [
+          35.235,
+          -2.276
+        ],
+        [
+          34.36,
+          7.551
+        ],
+        [
+          38.737,
+          18.419
+        ]
+      ]
+    },
+    {
+      "id": "D-up-lower",
+      "label": "国内值机至后侧上行口",
+      "level": 2,
+      "color": "#ffd34e",
+      "points": [
+        [
+          1249,
+          1414
+        ],
+        [
+          1205,
+          1387
+        ],
+        [
+          1135,
+          1428
+        ],
+        [
+          1100,
+          1407
+        ],
+        [
+          1114,
+          1385
+        ]
+      ],
+      "estimated_world_xz": [
+        [
+          -35.085,
+          67.114
+        ],
+        [
+          -34.808,
+          48.109
+        ],
+        [
+          -63.889,
+          47.898
+        ],
+        [
+          -63.837,
+          32.951
+        ],
+        [
+          -53.168,
+          28.058
+        ]
+      ]
+    },
+    {
+      "id": "I-up-lower",
+      "label": "国际值机层海关检疫至后侧上行口",
+      "level": 2,
+      "color": "#ff736b",
+      "points": [
+        [
+          1433,
+          1288
+        ],
+        [
+          1500,
+          1250
+        ],
+        [
+          1535,
+          1288
+        ],
+        [
+          1550,
+          1272
+        ],
+        [
+          1510,
+          1244
+        ],
+        [
+          1465,
+          1208
+        ],
+        [
+          1471,
+          1170
+        ]
+      ],
+      "estimated_world_xz": [
+        [
+          47.767,
+          61.15
+        ],
+        [
+          75.165,
+          61.796
+        ],
+        [
+          69.135,
+          82.822
+        ],
+        [
+          77.903,
+          80.288
+        ],
+        [
+          79.37,
+          61.775
+        ],
+        [
+          82.602,
+          39.339
+        ],
+        [
+          97.221,
+          27.024
+        ]
+      ]
+    }
+  ],
+  "notes": [
+    "Same pixel location may contain overlapping symbols; not every symbol is a separate room.",
+    "Vertical counterparts have not all been proven. Do not manufacture shaft pairing from proximity.",
+    "2024 west extension remains separate from this historical diagram.",
+    "Icon inventory is not a claim that all 87 facilities are reconstructed. Circulation-register.json lists the actually changed objects."
+  ]
+}

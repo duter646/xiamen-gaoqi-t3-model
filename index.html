@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>厦门高崎 · T3 航站楼</title><link rel="stylesheet" href="./style.css"><script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script></head>
+<body>
+<header><span class="eyebrow">XIAMEN AIRPORT</span><h1>厦门高崎 · T3 航站楼</h1></header>
+<button id="panel-toggle" aria-expanded="true" aria-controls="panel">收起面板</button>
+<aside id="panel">
+<section><h2>观察</h2><label class="sr-only" for="view">选择视角</label><select id="view"><optgroup label="建筑"><option value="overall">整体鸟瞰</option><option value="front">出发侧外观</option><option value="airside">停机坪与廊桥</option><option value="end">侧立面</option></optgroup><optgroup label="室内"><option value="cutaway">室内总览</option><option value="hall">值机大厅</option><option value="security">安检区域</option><option value="gallery">候机长廊</option><option value="arrival">到达行李厅</option><option value="arrivalvoid">到达扶梯与挑空</option></optgroup></select>
+<div class="floor-row" role="group" aria-label="楼层"><button data-floor="all" class="active" aria-pressed="true">全部</button><button data-floor="1" aria-pressed="false">1F</button><button data-floor="2" aria-pressed="false">2F</button><button data-floor="3" aria-pressed="false">3F</button></div></section>
+<section><h2>旅客动线</h2><div id="route-list"></div><div class="route-actions"><button id="route-focus" disabled>查看所选动线</button><button id="route-clear" disabled>清除</button></div><div id="route-stages" aria-live="polite"></div></section>
+<details><summary>显示与漫游</summary><label><input id="roof" type="checkbox" checked>屋顶</label><label><input id="site" type="checkbox" checked>周边场地</label><label><input id="interior" type="checkbox" checked>室内设施</label><label><input id="rotate" type="checkbox">自动旋转</label><label class="speed-label" for="speed">移动速度 <output id="speed-value">24 m/s</output></label><input id="speed" type="range" min="8" max="64" value="24" step="4"><p class="keys">WASD 移动 · Q/E 升降<br>Shift 加速 · 鼠标拖动旋转</p></details>
+<a class="download" href="./assets/xiamen-gaoqi-t3.glb" download>下载 GLB</a><a class="credit" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap contributors</a>
+</aside>
+<div id="loading" role="status">正在加载航站楼…</div><div id="route-error" role="alert" hidden></div>
+<script type="module" src="./app.js"></script></body></html>

@@ -1,0 +1,721 @@
+{
+  "facilities": [
+    {
+      "id": "L3-E01",
+      "kind": "floor connection",
+      "position": [
+        -109.22819093221608,
+        12.1,
+        27.625692054466533
+      ],
+      "dimensions_verified": false,
+      "landing_pixel": [
+        979,
+        1024
+      ],
+      "lower_landing": [
+        -131.22819093221608,
+        0.28,
+        27.625692054466533
+      ],
+      "pairing": "upper landing source-traced; run and lower endpoint estimated"
+    },
+    {
+      "id": "L3-E02",
+      "kind": "floor connection",
+      "position": [
+        -98.34984288493189,
+        12.1,
+        62.94515935956906
+      ],
+      "dimensions_verified": false,
+      "landing_pixel": [
+        1088,
+        1058
+      ],
+      "lower_landing": [
+        -98.34984288493189,
+        6.3,
+        73.94515935956906
+      ],
+      "pairing": "upper landing source-traced; run and lower endpoint estimated"
+    },
+    {
+      "id": "L3-E03",
+      "kind": "floor connection",
+      "position": [
+        -66.00658386951966,
+        12.1,
+        32.179036360915745
+      ],
+      "dimensions_verified": false,
+      "landing_pixel": [
+        1093,
+        969
+      ],
+      "lower_landing": [
+        -55.00658386951966,
+        6.3,
+        32.179036360915745
+      ],
+      "pairing": "upper landing source-traced; run and lower endpoint estimated"
+    },
+    {
+      "id": "L3-E06",
+      "kind": "floor connection",
+      "position": [
+        88.28789465808774,
+        12.1,
+        36.53486458177466
+      ],
+      "dimensions_verified": false,
+      "landing_pixel": [
+        1472,
+        756
+      ],
+      "lower_landing": [
+        99.28789465808774,
+        6.3,
+        36.53486458177466
+      ],
+      "pairing": "upper landing source-traced; run and lower endpoint estimated"
+    },
+    {
+      "id": "L3-E04",
+      "kind": "arrival escalator",
+      "position": [
+        -49.2,
+        12.1,
+        20.527083645069553
+      ],
+      "dimensions_verified": false,
+      "landing_pixel": [
+        1124,
+        918
+      ],
+      "lower_landing": [
+        -27.200000000000003,
+        0.3,
+        20.527083645069553
+      ],
+      "pairing": "upper landing source-traced; run and lower endpoint estimated"
+    },
+    {
+      "id": "L3-E05",
+      "kind": "arrival escalator",
+      "position": [
+        23.1,
+        12.1,
+        20.527083645069553
+      ],
+      "dimensions_verified": false,
+      "landing_pixel": [
+        1286,
+        809
+      ],
+      "lower_landing": [
+        45.1,
+        0.3,
+        20.527083645069553
+      ],
+      "pairing": "upper landing source-traced; run and lower endpoint estimated"
+    },
+    {
+      "id": "L2-L01",
+      "kind": "lift shaft",
+      "position": [
+        -78.0,
+        6.3,
+        -2.5
+      ],
+      "dimensions_verified": false,
+      "upper_level": 12.1
+    },
+    {
+      "id": "L3-L02",
+      "kind": "lift shaft",
+      "position": [
+        114.0,
+        6.3,
+        1.7
+      ],
+      "dimensions_verified": false,
+      "upper_level": 12.1
+    },
+    {
+      "id": "L2-L02",
+      "kind": "lift shaft",
+      "position": [
+        -70.0,
+        0.3,
+        88.0
+      ],
+      "dimensions_verified": false,
+      "upper_level": 6.3
+    },
+    {
+      "id": "L2-L04",
+      "kind": "lift shaft",
+      "position": [
+        94.0,
+        0.3,
+        88.0
+      ],
+      "dimensions_verified": false,
+      "upper_level": 6.3
+    },
+    {
+      "id": "L2-E02",
+      "kind": "floor connection",
+      "position": [
+        -55.99999999999994,
+        6.3,
+        83.99999999999999
+      ],
+      "dimensions_verified": false,
+      "landing_pixel": [
+        1238.6950000000002,
+        1027.34
+      ],
+      "lower_landing": [
+        -55.99999999999994,
+        0.3,
+        93.99999999999999
+      ],
+      "pairing": "upper landing source-traced; run and lower endpoint estimated"
+    },
+    {
+      "id": "L2-E04",
+      "kind": "floor connection",
+      "position": [
+        106.0,
+        6.3,
+        83.00000000000003
+      ],
+      "dimensions_verified": false,
+      "landing_pixel": [
+        1623.525,
+        795.9000000000001
+      ],
+      "lower_landing": [
+        106.0,
+        0.3,
+        93.00000000000003
+      ],
+      "pairing": "upper landing source-traced; run and lower endpoint estimated"
+    },
+    {
+      "id": "SEC-D-01",
+      "kind": "security lane",
+      "position": [
+        -40.17237767469703,
+        12.1,
+        39.096588358521615
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-02",
+      "kind": "security lane",
+      "position": [
+        -33.97623469558409,
+        12.1,
+        38.95267623733616
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-03",
+      "kind": "security lane",
+      "position": [
+        -27.780091716471144,
+        12.1,
+        38.80876411615072
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-04",
+      "kind": "security lane",
+      "position": [
+        -21.583948737358202,
+        12.1,
+        38.66485199496526
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-05",
+      "kind": "security lane",
+      "position": [
+        -15.38780575824526,
+        12.1,
+        38.52093987377981
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-06",
+      "kind": "security lane",
+      "position": [
+        -9.191662779132315,
+        12.1,
+        38.37702775259436
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-07",
+      "kind": "security lane",
+      "position": [
+        -3.9955198000193803,
+        12.1,
+        38.233115631408914
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-08",
+      "kind": "security lane",
+      "position": [
+        3.2006231790935615,
+        12.1,
+        38.08920351022347
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-09",
+      "kind": "security lane",
+      "position": [
+        8.396766158206507,
+        12.1,
+        37.94529138903802
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-10",
+      "kind": "security lane",
+      "position": [
+        15.592909137319449,
+        12.1,
+        37.80137926785257
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-11",
+      "kind": "security lane",
+      "position": [
+        21.789052116432398,
+        12.1,
+        37.657467146667116
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-12",
+      "kind": "security lane",
+      "position": [
+        27.985195095545336,
+        12.1,
+        37.513555025481665
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-13",
+      "kind": "security lane",
+      "position": [
+        34.18133807465827,
+        12.1,
+        37.369642904296214
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-14",
+      "kind": "security lane",
+      "position": [
+        40.37748105377122,
+        12.1,
+        37.22573078311076
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-15",
+      "kind": "security lane",
+      "position": [
+        46.573624032884155,
+        12.1,
+        37.08181866192532
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-16",
+      "kind": "security lane",
+      "position": [
+        52.7697670119971,
+        12.1,
+        36.93790654073986
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-17",
+      "kind": "security lane",
+      "position": [
+        58.965909991110045,
+        12.1,
+        36.793994419554416
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-D-18",
+      "kind": "security lane",
+      "position": [
+        65.16205297022299,
+        12.1,
+        36.650082298368964
+      ],
+      "dimensions_verified": false,
+      "bank": "domestic"
+    },
+    {
+      "id": "SEC-I-01",
+      "kind": "security lane",
+      "position": [
+        128.92084393236576,
+        12.1,
+        19.891141702828044
+      ],
+      "dimensions_verified": false,
+      "bank": "international"
+    },
+    {
+      "id": "SEC-I-02",
+      "kind": "security lane",
+      "position": [
+        128.90089281260916,
+        12.1,
+        25.58519128136064
+      ],
+      "dimensions_verified": false,
+      "bank": "international"
+    },
+    {
+      "id": "SEC-I-03",
+      "kind": "security lane",
+      "position": [
+        128.88094169285256,
+        12.1,
+        31.279240859893232
+      ],
+      "dimensions_verified": false,
+      "bank": "international"
+    },
+    {
+      "id": "SEC-I-04",
+      "kind": "security lane",
+      "position": [
+        128.86099057309593,
+        12.1,
+        36.97329043842582
+      ],
+      "dimensions_verified": false,
+      "bank": "international"
+    },
+    {
+      "id": "SEC-I-05",
+      "kind": "security lane",
+      "position": [
+        128.8410394533393,
+        12.1,
+        43.91734001695842
+      ],
+      "dimensions_verified": false,
+      "bank": "international"
+    },
+    {
+      "id": "SEC-I-06",
+      "kind": "security lane",
+      "position": [
+        128.82108833358274,
+        12.1,
+        48.361389595491005
+      ],
+      "dimensions_verified": false,
+      "bank": "international"
+    },
+    {
+      "id": "SEC-I-07",
+      "kind": "security lane",
+      "position": [
+        128.8011372138261,
+        12.1,
+        54.055439174023604
+      ],
+      "dimensions_verified": false,
+      "bank": "international"
+    },
+    {
+      "id": "IMM-I-1",
+      "kind": "immigration booth",
+      "position": [
+        56.46087086637738,
+        12.1,
+        59.96745473589701
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "id": "IMM-I-2",
+      "kind": "immigration booth",
+      "position": [
+        61.685570352636034,
+        12.1,
+        59.94933246878477
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "id": "IMM-I-3",
+      "kind": "immigration booth",
+      "position": [
+        66.9102698388947,
+        12.1,
+        59.93121020167253
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "id": "IMM-I-4",
+      "kind": "immigration booth",
+      "position": [
+        72.13496932515338,
+        12.1,
+        59.913087934560295
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "id": "IMM-I-5",
+      "kind": "immigration booth",
+      "position": [
+        77.35966881141204,
+        12.1,
+        59.89496566744805
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "id": "IMM-I-6",
+      "kind": "immigration booth",
+      "position": [
+        82.5843682976707,
+        12.1,
+        59.876843400335815
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "id": "IMM-I-7",
+      "kind": "immigration booth",
+      "position": [
+        87.80906778392936,
+        12.1,
+        59.858721133223575
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "id": "IMM-I-8",
+      "kind": "immigration booth",
+      "position": [
+        93.03376727018802,
+        12.1,
+        59.840598866111335
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "id": "IMM-I-9",
+      "kind": "immigration booth",
+      "position": [
+        98.25846675644668,
+        12.1,
+        59.822476598999096
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "id": "IMM-I-10",
+      "kind": "immigration booth",
+      "position": [
+        103.48316624270535,
+        12.1,
+        59.804354331886856
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "id": "D-SH01",
+      "kind": "source block",
+      "position": [
+        -73.33113871016013,
+        12.1,
+        42.60698787969474
+      ],
+      "dimensions_verified": false,
+      "footprint_estimated": [
+        8,
+        4
+      ]
+    },
+    {
+      "id": "D-SH02",
+      "kind": "source block",
+      "position": [
+        -60.021247942540754,
+        12.1,
+        43.964162801137185
+      ],
+      "dimensions_verified": false,
+      "footprint_estimated": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "D-SH03",
+      "kind": "source block",
+      "position": [
+        -59.811761185096486,
+        12.1,
+        64.17664222654494
+      ],
+      "dimensions_verified": false,
+      "footprint_estimated": [
+        14,
+        5
+      ]
+    },
+    {
+      "id": "D-CF01",
+      "kind": "source block",
+      "position": [
+        -85.57863235074069,
+        12.1,
+        38.04167290139159
+      ],
+      "dimensions_verified": false,
+      "footprint_estimated": [
+        7,
+        4
+      ]
+    },
+    {
+      "id": "I-SH01",
+      "kind": "source block",
+      "position": [
+        118.5891066886129,
+        12.1,
+        19.968951069878763
+      ],
+      "dimensions_verified": false,
+      "footprint_estimated": [
+        10,
+        5
+      ]
+    }
+  ],
+  "floor_openings": [
+    [
+      -131.72819093221608,
+      -109.62819093221609,
+      25.975692054466535,
+      29.275692054466532
+    ],
+    [
+      -99.9998428849319,
+      -96.69984288493188,
+      63.34515935956906,
+      74.44515935956906
+    ],
+    [
+      -65.60658386951965,
+      -54.50658386951966,
+      30.529036360915747,
+      33.829036360915744
+    ],
+    [
+      88.68789465808774,
+      99.78789465808774,
+      34.884864581774664,
+      38.18486458177466
+    ],
+    [
+      -49.0,
+      -44.6,
+      18.877083645069554,
+      22.17708364506955
+    ],
+    [
+      23.3,
+      27.700000000000003,
+      18.877083645069554,
+      22.17708364506955
+    ],
+    [
+      -79.5,
+      -76.5,
+      -4.0,
+      -1.0
+    ],
+    [
+      112.5,
+      115.5,
+      0.19999999999999996,
+      3.2
+    ],
+    [
+      -66.00658386951966,
+      -32.458775998802935,
+      17.604743378722105,
+      29.5
+    ],
+    [
+      -16.956755947927604,
+      92.4925931467904,
+      16.51391590603017,
+      29.5
+    ],
+    [
+      75,
+      87,
+      24,
+      33
+    ]
+  ]
+}

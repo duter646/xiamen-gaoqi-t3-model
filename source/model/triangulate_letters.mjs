@@ -1,0 +1,8 @@
+import fs from 'node:fs';
+import {ShapeUtils,Vector2} from '../vendor/three.module.js';
+const root=new URL('./',import.meta.url);const data=JSON.parse(fs.readFileSync(new URL(process.argv[2]||'letter-contours.json',root),'utf8').replace(/^\uFEFF/,''));
+const inside=(p,c)=>{let yes=false;for(let i=0,j=c.length-1;i<c.length;j=i++){let a=c[i],b=c[j];if((a[1]>p[1])!==(b[1]>p[1])&&p[0]<(b[0]-a[0])*(p[1]-a[1])/(b[1]-a[1])+a[0])yes=!yes;}return yes;};
+const cs=data.contours.map(c=>c.filter((p,i)=>!i||p[0]!==c[i-1][0]||p[1]!==c[i-1][1])).filter(c=>c.length>2);
+const depth=cs.map((c,i)=>cs.filter((d,j)=>i!==j&&inside(c[0],d)).length);let vertices=[],faces=[];
+for(let i=0;i<cs.length;i++){if(depth[i]%2)continue;let holes=cs.filter((c,j)=>depth[j]===depth[i]+1&&inside(c[0],cs[i]));let rings=[cs[i],...holes].map(c=>c.map(p=>new Vector2(...p)));if(!ShapeUtils.isClockWise(rings[0]))rings[0].reverse();for(let h of rings.slice(1))if(ShapeUtils.isClockWise(h))h.reverse();let tris=ShapeUtils.triangulateShape(rings[0],rings.slice(1));let pts=rings.flat();let base=vertices.length,n=pts.length;for(let z of [0,.26])for(let p of pts)vertices.push([p.x,p.y,z]);for(let t of tris){faces.push(t.map(k=>base+k));faces.push([...t].reverse().map(k=>base+n+k));}let offset=0;for(let ring of rings){for(let j=0;j<ring.length;j++){let a=base+offset+j,b=base+offset+(j+1)%ring.length;faces.push([a,b,b+n],[a,b+n,a+n]);}offset+=ring.length;}}
+fs.writeFileSync(new URL(process.argv[3]||'letter-mesh.json',root),JSON.stringify({font:data.font,text:data.text,vertices,faces}));console.log({font:data.font,contours:cs.length,vertices:vertices.length,triangles:faces.length});

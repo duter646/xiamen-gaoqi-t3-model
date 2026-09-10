@@ -1,0 +1,28 @@
+# Large generated models and packages are distributed through GitHub Releases.
+*.glb
+*.zip
+
+# Local iteration history and generated inspection output.
+archive/
+source/model/preview-*.png
+source/model/review-*.png
+source/model/*-validation.json
+source/model/model-stats.json
+source/model/browser-validation.json
+source/model/column-connections.json
+source/model/supported-guards.json
+source/model/footprint-column-audit.json
+source/model/security-exit-paths.json
+source/model/west-*.png
+tests/shop.png
+tests/straight-guard.png
+tests/viewer-mobile.png
+tests/viewer-validation.json
+
+# Python and editor files.
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

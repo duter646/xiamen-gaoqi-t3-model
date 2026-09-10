@@ -1,0 +1,34 @@
+{
+  "solid_upper_bay": [
+    -83.8653,
+    -67.6301,
+    15.5323,
+    29.0652
+  ],
+  "extended_upper_void": [
+    -66.0066,
+    -32.4588,
+    17.6047,
+    29.5
+  ],
+  "second_floor_open_strip": [
+    -83.8653,
+    92.4926,
+    15.5323,
+    29.5
+  ],
+  "arrival_upper_landings": [
+    [
+      -49.2,
+      12.1,
+      20.5271
+    ],
+    [
+      23.1,
+      12.1,
+      20.5271
+    ]
+  ],
+  "wall_z": 30.1,
+  "dimensions": "user-marked topology; exact dimensions estimated"
+}

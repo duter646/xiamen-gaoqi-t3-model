@@ -1,0 +1,132 @@
+{
+  "column_fixture_intersections_before": [
+    {
+      "group": "Interior_Circulation_D-SH02",
+      "material": 0,
+      "primitive": 0,
+      "column": [
+        -62.5,
+        42.0
+      ],
+      "box": [
+        [
+          -64.52124786376953,
+          12.100000381469727,
+          41.889163970947266
+        ],
+        [
+          -55.52124786376953,
+          15.0,
+          42.039161682128906
+        ]
+      ]
+    },
+    {
+      "group": "Interior_Circulation_I-SH01",
+      "material": 0,
+      "primitive": 0,
+      "column": [
+        129.5,
+        18.0
+      ],
+      "box": [
+        [
+          122.58910369873047,
+          12.100000381469727,
+          17.393951416015625
+        ],
+        [
+          132.589111328125,
+          15.0,
+          17.5439510345459
+        ]
+      ]
+    }
+  ],
+  "column_fixture_intersections_after": [],
+  "repairs": [
+    "I-SH01 moved 9 m west to clear first international screening lane; inferred footprint",
+    "D-SH02 back wall wraps structural column",
+    "I-SH01 back wall offset -0.35 m"
+  ],
+  "arrival_bridge_rail_openings": [
+    {
+      "id": "L3-E04",
+      "z": 17.604743378722105,
+      "x_span": [
+        -51.0,
+        -47.400000000000006
+      ]
+    },
+    {
+      "id": "L3-E05",
+      "z": 16.51391590603017,
+      "x_span": [
+        21.3,
+        24.900000000000002
+      ]
+    }
+  ],
+  "lower_lift_slab_openings": [
+    [
+      -71.5,
+      -68.5,
+      86.5,
+      89.5
+    ],
+    [
+      92.5,
+      95.5,
+      86.5,
+      89.5
+    ],
+    [
+      -57.64999999999994,
+      -54.349999999999945,
+      84.39999999999999,
+      94.49999999999999
+    ],
+    [
+      104.35,
+      107.65,
+      83.40000000000003,
+      93.50000000000003
+    ],
+    [
+      -49.0,
+      -26.700000000000003,
+      18.827083645069553,
+      22.227083645069552
+    ],
+    [
+      23.3,
+      45.6,
+      18.827083645069553,
+      22.227083645069552
+    ],
+    [
+      -83.86532994164293,
+      92.4925931467904,
+      15.532320814005676,
+      29.5
+    ],
+    [
+      88.4,
+      98.7,
+      34.9,
+      38.2
+    ]
+  ],
+  "dimensions": {
+    "clear_security_portal_m": 1.28,
+    "paired_escalator_tread_width_m": 1.08,
+    "escalator_rise_m": 5.8,
+    "escalator_run_m": 11,
+    "seat_pitch_m": 0.62,
+    "counter_height_m": 1.1
+  },
+  "limits": [
+    "Only selected box primitives tested against columns, not every mesh pair.",
+    "Overall floor heights and as-built equipment dimensions remain unverified."
+  ]
+}
