@@ -22,16 +22,16 @@
 
 ## 参考资料
 
-用于早期空间还原的完整 v2 reference 集合已恢复到 [`references/v2`](references/v2)。其中包括：
+用于空间还原的完整参考资料集合位于 [`references`](references)。其中包括：
 
 - 2017 年值机大厅、候机长廊、日间外观和出发层雨棚照片
 - 官方出发与到达导览图
 - 2024 年航站楼行走记录与西侧改造照片
 - 2025 年安检区域资料
 - OpenStreetMap 航站楼及周边数据
-- 来源 URL、下载状态和文件大小清单 [`manifest.json`](references/v2/manifest.json)
+- 来源 URL、下载状态和文件大小清单 [`manifest.json`](references/manifest.json)
 
-根目录 [`references`](references) 还保留了后续补充的外观、值机和圆窗参考。资料来自不同年份，解释结构时应先核对拍摄时期和改造状态。
+该目录也包含后续补充的外观、值机和圆窗参考。资料来自不同年份，解释结构时应先核对拍摄时期和改造状态。
 
 ## 建模工作流 Skill
 
@@ -104,8 +104,7 @@ Windows PowerShell：
 ├─ source/
 │  ├─ build_routes.py        根据模型几何生成动线
 │  └─ model/                 模型生成源码与建模输入
-├─ references/               当前参考资料
-│  └─ v2/                    v2 完整参考资料与来源清单
+├─ references/               完整参考资料与来源清单
 ├─ skills/
 │  └─ reference-building-model/
 │                              从零建筑还原工作流

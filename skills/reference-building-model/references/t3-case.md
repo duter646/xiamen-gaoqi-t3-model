@@ -26,6 +26,6 @@
 - `source/model/check_order12.py`、`check_zone22.py`、`check_arrivals.py`：手续顺序、分区与到达净空。
 - `source/build_routes.py`：依据网格生成四类路线。
 - `tests/shop-boundary.cjs`、`tests/viewer.cjs`：近景与界面检查。
-- `references/`、`archive/iterations/revision2/references/`：参考来源；其他历史图也保留在归档里。
+- `references/`：实拍、结构图、导览图、网页快照、地图数据及来源清单。
 
 这些是遗留实现，不是推荐从零架构。它们曾使用共享作用域和硬编码坐标；新项目应采用独立参数与模块。执行旧检查前确认绑定的是当前产物，不能直接相信历史报告。

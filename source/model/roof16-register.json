@@ -9127,10 +9127,10 @@
   },
   "internal_beams": "three straight members forming triangular supports",
   "references": [
-    "revision2/references/exterior-airside.jpg",
-    "revision2/references/exterior-day.jpg",
-    "revision2/references/checkin-detail-2017.jpg",
-    "revision2/references/walk-2024-20241208071835.jpg"
+    "references/exterior-airside.jpg",
+    "references/exterior-day.jpg",
+    "references/checkin-detail-2017.jpg",
+    "references/walk-2024-20241208071835.jpg"
   ],
   "dimensions": "photo estimates"
 }

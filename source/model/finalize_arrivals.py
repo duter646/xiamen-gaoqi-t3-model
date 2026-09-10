@@ -28,7 +28,7 @@ R=Path(__file__).resolve().parent
 
 ## 依据和限制
 
-1. [机场官方历史到达图](https://xiamenairport.com.cn/images/lkzn/4hjldt2-big.jpg)：楼层、转盘编号、联检及接机区关系。本地原图 ../revision2/references/official-arrival-map.jpg。
+1. [机场官方历史到达图](https://xiamenairport.com.cn/images/lkzn/4hjldt2-big.jpg)：楼层、转盘编号、联检及接机区关系。本地原图 ../../references/official-arrival-map.jpg。
 2. [Tyg728，T3 行李提取厅，2017-07-23](https://commons.wikimedia.org/wiki/File:Xiamen_Gaoqi_International_Airport_Terminal_3_Baggage_Claim_Hall_20170723.jpg)，CC BY-SA 4.0。本地 arrival-photo.jpg 为未修改参考照片，用于结构与材料观察，未作为模型纹理。
 3. [国航厦门机场指南](https://webresource.airchina.com.cn/zh-CN/content/travel_info/preparing/conditions/destination/china/xmn/)：国际到达的检疫、边检、行李、海关及到达大厅流程。
 4. 用户提供的出发结构图及此前保存的值机、候机廊实拍。
@@ -45,5 +45,5 @@ s=s.replace('<aside><h2','''<aside><p>新增一层行李提取、联检和接机
 <button onclick="viewer.contentWindow.setView('checkinplan')">值机岛与分区</button>
 <p><a href="index.html?view=arrival">全屏浏览</a></p><h2''')
 s=s.replace('</small></aside>','''</small><p>到达梯段检查：7 组双侧踏步净空。具体井道位置及部分隔断线位仍为推定，详见报告。</p>
-<details><summary>到达参考图</summary><a href="../revision2/references/official-arrival-map.jpg" target="_blank"><img style="width:100%" src="../revision2/references/official-arrival-map.jpg"></a><a href="arrival-photo.jpg" target="_blank"><img style="width:100%" src="arrival-photo.jpg"></a><small>实拍：Tyg728 / CC BY-SA 4.0，出处见报告。</small></details></aside>''')
+<details><summary>到达参考图</summary><a href="../../references/official-arrival-map.jpg" target="_blank"><img style="width:100%" src="../../references/official-arrival-map.jpg"></a><a href="arrival-photo.jpg" target="_blank"><img style="width:100%" src="arrival-photo.jpg"></a><small>实拍：Tyg728 / CC BY-SA 4.0，出处见报告。</small></details></aside>''')
 p.write_text(s,encoding='utf-8')

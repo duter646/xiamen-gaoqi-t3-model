@@ -53,6 +53,6 @@ for side in [-1,1]:
 for key in list(groups):
     if key[0]=='Roof_Ridge':del groups[key]
 for xx in np.arange(X0,X1+.1,12):beam('Roof_Ridge',WHITE,(xx,32.5,RIDGE_Z),(xx,40,RIDGE_Z),.65,.7)
-(ROOT/'roof16-register.json').write_text(json.dumps(dict(panels=roof16_panels,thickness_m=.22,tiers=roof16_tiers,internal_beams='three straight members forming triangular supports',references=['revision2/references/exterior-airside.jpg','revision2/references/exterior-day.jpg','revision2/references/checkin-detail-2017.jpg','revision2/references/walk-2024-20241208071835.jpg'],dimensions='photo estimates'),indent=2),encoding='utf-8')
+(ROOT/'roof16-register.json').write_text(json.dumps(dict(panels=roof16_panels,thickness_m=.22,tiers=roof16_tiers,internal_beams='three straight members forming triangular supports',references=['references/exterior-airside.jpg','references/exterior-day.jpg','references/checkin-detail-2017.jpg','references/walk-2024-20241208071835.jpg'],dimensions='photo estimates'),indent=2),encoding='utf-8')
 
 exec(compile((ROOT/'curve17.py').read_text(encoding='utf-8'),str(ROOT/'curve17.py'),'exec'))
