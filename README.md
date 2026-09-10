@@ -6,6 +6,10 @@
 
 ![航站楼整体视图](tests/viewer-overall.png)
 
+## 在线浏览
+
+直接打开 [GitHub Pages 在线模型](https://duter646.github.io/xiamen-gaoqi-t3-model/)。首次访问需要下载约 76 MB 的 GLB 模型。
+
 ## 功能
 
 - 航站楼主体、曲面屋顶、端立面、登机长廊与廊桥
