@@ -33,17 +33,15 @@
 
 该目录也包含后续补充的外观、值机和圆窗参考。资料来自不同年份，解释结构时应先核对拍摄时期和改造状态。
 
-## 建模工作流 Skill
+## 建筑复原 Skill
 
-仓库内包含 [`reference-building-model`](skills/reference-building-model/SKILL.md) skill，用于从零依据结构图、导览图和实拍还原建筑。它把本项目出现过的主要返工原因转成前置步骤：
+仓库内包含通用的 [`architectural-reconstruction`](skills/architectural-reconstruction/SKILL.md) skill，适用于依据图纸、照片、视频、测量和公开资料复原真实建筑。它不包含本项目的机场布局或手续规则，重点约束三类常见问题：
 
-- 按具体结构疑点检索资料并逐图标注
-- 在建模前形成统一平面、关键剖面、设施多边形和区域边界
-- 先完成全部楼层、挑空、交通设备与受控动线的低细节验证
-- 再制作屋顶、外立面、室内设施、标牌与材质
-- 同时检查合法路线和禁止绕行，验证模型、动线和页面产物一致
+- 用覆盖矩阵检查资料是否包含全部立面、楼层、屋面、剖面和关键空间；
+- 将每个重要构件和参数追溯到实际查看过的证据，禁止凭印象补齐；
+- 导出前逐项检查漏墙、漏面、穿模、浮空、错层、错误开口和错误连通。
 
-将 `skills/reference-building-model` 复制到 Codex 的 skills 目录即可作为本地 skill 使用。详细的检索、空间转换、验收和交付规则位于该目录的 `references` 中。
+将 `skills/architectural-reconstruction` 复制到 Codex 的 skills 目录即可使用。详细的资料收集、证据转几何和质量检查规则位于该目录的 `references` 中。
 
 ## 获取模型
 
@@ -106,8 +104,8 @@ Windows PowerShell：
 │  └─ model/                 模型生成源码与建模输入
 ├─ references/               完整参考资料与来源清单
 ├─ skills/
-│  └─ reference-building-model/
-│                              从零建筑还原工作流
+│  └─ architectural-reconstruction/
+│                              通用建筑复原工作流
 ├─ tests/                    几何、通路与浏览器检查
 └─ archive/                  本地历史迭代，不纳入 Git
 ```

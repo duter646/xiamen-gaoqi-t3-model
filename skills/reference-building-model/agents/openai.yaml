@@ -1,4 +1,0 @@
-interface:
-  display_name: "从零实景建筑还原"
-  short_description: "从参考核对、全楼层低细节验证到几何与动线验收，减少建筑还原返工"
-  default_prompt: "使用 $reference-building-model，从零依据结构图和实拍还原建筑，先验证空间与动线再细化，并完成交付验收。"

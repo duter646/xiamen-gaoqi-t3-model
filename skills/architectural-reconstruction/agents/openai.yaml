@@ -1,0 +1,4 @@
+interface:
+  display_name: "建筑复原"
+  short_description: "以完整资料、证据追踪和几何验收复原真实建筑"
+  default_prompt: "使用 $architectural-reconstruction 依据可靠资料复原这座建筑，先完成证据覆盖与空间骨架，再细化并检查漏构件、穿模和浮空。"
