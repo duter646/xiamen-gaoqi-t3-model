@@ -2,14 +2,14 @@
   "security": [
     {
       "bank": "D",
-      "lanes": 18,
+      "lanes": 20,
       "pedestrian_aperture_m": 1.28,
       "scanner_aperture_m": 1.36,
       "partition_height_m": 2.55
     },
     {
       "bank": "I",
-      "lanes": 7,
+      "lanes": 8,
       "pedestrian_aperture_m": 1.28,
       "scanner_aperture_m": 1.36,
       "partition_height_m": 2.55

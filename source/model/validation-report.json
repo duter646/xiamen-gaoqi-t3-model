@@ -1,9 +1,9 @@
 {
   "format": "GLB 2.0",
   "structural_checks": "passed",
-  "meshes": 736,
+  "meshes": 756,
   "embedded_textures": 9,
-  "bytes": 75641628,
-  "sha256": "78b5079d5f05f74e6f443ee7374abe312792547dba9d9045ec8f0e708ec6fc37",
+  "bytes": 72093304,
+  "sha256": "fdc724998379bbf48c0478419d7a0a08f6a48b1559f64b5989ba98a9d81eb9ad",
   "notes": "Checks bounds, chunks, finite geometry, matching attribute counts, embedded PNGs. Browser visual checks recorded separately."
 }

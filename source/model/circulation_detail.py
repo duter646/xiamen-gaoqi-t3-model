@@ -69,9 +69,12 @@ def lift(id,x,z,base,top):
     g='Interior_Circulation_'+id;h=top-base+3.0
     for dx in [-1.35,1.35]:box(g,WHITE,(x+dx,base+h/2,z),(.18,h,2.9))
     box(g,WHITE,(x,base+h/2,z-1.4),(2.8,h,.18))
+    for dx in [-1.235,1.235]:box(g,WHITE,(x+dx,base+h/2,z+1.41),(.29,h,.20))
+    for low,high in [(base+2.16,top),(top+2.16,top+3.0)]:
+        box(g,WHITE,(x,(low+high)/2,z+1.41),(2.18,high-low,.20))
     for yy in [base,top]:
         for dx in [-.57,.57]:box(g,FRAME,(x+dx,yy+1.08,z+1.41),(1.10,2.16,.08))
-        box(g,WHITE,(x,yy+2.6,z+1.41),(2.7,.75,.2))
+        box('Structure_LiftThreshold_'+id,FLOOR,(x,yy-.06,z+1.43),(2.9,.12,.5))
         box(g,SCREEN,(x+.98,yy+1.25,z+1.55),(.13,.24,.05))
         label(g,'电梯',id,(x,yy+2.6,z+1.56),2.4,.45)
     if top==F3:holes.append((x-1.5,x+1.5,z-1.5,z+1.5))
@@ -81,7 +84,7 @@ def lift(id,x,z,base,top):
 
 # Lower front-side lifts connect to arrivals below; no diagram basis for taking
 # those shafts through the upper public forecourt. Keep that distinction explicit.
-for id,x,z,base,top in [('L2-L01',-78,-2.5,F2,F3),('L3-L02',114,1.7,F2,F3),('L2-L02',-70,88,.3,F2),('L2-L04',94,88,.3,F2)]:lift(id,x,z,base,top)
+for id,x,z,base,top in [('L2-L01',-78,-2.5,F2,F3),('L3-L02',114,0.0,F2,F3),('L2-L02',-70,88,.3,F2),('L2-L04',95.7,88,.3,F2)]:lift(id,x,z,base,top)
 # Front lower-hall escalators descend toward the arrivals level, not to security.
 for id,x,z in [('L2-E02',-56,84),('L2-E04',106,83)]:
     # Convert world upper landing back to source coordinates for the shared helper.
@@ -97,7 +100,7 @@ for r in arrival_descents:
 # Atrium openings traced from the black polygons, rather than v4's uniform slots.
 # Axis-aligned extent is an approximation to the oblique guide's drawn footprint.
 for ps in [[(1012,971),(1050,948),(1081,967),(1043,990)],[(1085,933),(1139,901),(1169,919),(1115,951)],[(1175,878),(1435,722),(1473,745),(1213,901)]]:
-    pp=np.array([project(p) for p in ps]);h=(pp[:,0].min(),pp[:,0].max(),pp[:,1].min(),min(pp[:,1].max(),29.5));holes.append(h)
+    pp=np.array([project(p) for p in ps]);h=(pp[:,0].min(),pp[:,0].max(),pp[:,1].min(),min(pp[:,1].max(),31.7));holes.append(h)
     for z in h[2:]:rail('Interior_AtriumGuardrails',(h[0],F3,z),(h[1],F3,z))
     for x in h[:2]:rail('Interior_AtriumGuardrails',(x,F3,h[2]),(x,F3,h[3]))
 
@@ -110,12 +113,7 @@ def floor_with_holes(g,y,xmin,xmax,zmin,zmax,cutouts,mat=SEC_FLOOR):
             if b-a<.01 or d-c<.01 or any(h[0]<x<h[1] and h[2]<z<h[3] for h in cutouts):continue
             box(g,mat,(x,y-.20,z),(b-a,.4,d-c))
 
-# User: west small bay is solid; the next void extends left to the up escalator.
-holes=[h for h in holes if not (-84<h[0]<-83 and -68<h[1]<-67)]
-holes=[(-66.00658386951966,h[1],h[2],h[3]) if -56<h[0]<-54 and -33<h[1]<-32 else h for h in holes]
-holes.append((75,87,24,33))
-# The marked long 2F strip is entirely open, including below 3F landing bridges.
-lower_holes.append((-83.86532994164293,92.4925931467904,15.532320814005676,29.5))
+# Separate black upper-level openings do not imply a continuous hole in 2F.
 # Lower-level opening below the public international stair; retain its east landing.
 lower_holes.append((88.4,98.7,34.9,38.2))
 floor_with_holes('Structure_ThirdFloor_Level3',F3,X0,X1,12,68,holes)
@@ -138,8 +136,11 @@ for rec in records:
     for side in [-1,1]:rail('Interior_ArrivalBridgeRails',(x+side*1.7,F3,12),(x+side*1.7,F3,z))
 
 def screening_lane(id,x,z,angle=0):
-    if id in ['SEC-D-07','SEC-D-09']:x-=1.0
-    if id=='SEC-I-05':z+=1.25  # keep portal clear of the structural column
+    # Equipment symbols locate the bank, not the centre of the modelled arch.
+    # Keep its full approach outside the adjacent shop; retain source row spacing.
+    if angle:x+=4.2
+    if id=='SEC-D-13':x+=.8
+    if id=='SEC-I-04':x-=.5
     g='Interior_Circulation_'+id;start={k:len(d['v']) for k,d in groups.items()}
     for dx in [-.57,.57]:box(g,WHITE,(x+dx,F3+1.12,z),(.14,2.24,.42))
     box(g,WHITE,(x,F3+2.28,z),(1.3,.17,.42))
@@ -158,12 +159,11 @@ def screening_lane(id,x,z,angle=0):
 
 # Domestic: long bank parallel to the concourse. International: return bank at
 # its east end, after a separate immigration bank. Counts represent drawn symbols.
-da=project([1171,942]);db=project([1417,789])
-for i,t in enumerate(np.linspace(0,1,18)):
-    x,z=da*(1-t)+db*t;screening_lane(f'SEC-D-{i+1:02}',x,z)
-ia=project([1530,675]);ib=project([1610,723])
-for i,t in enumerate(np.linspace(0,1,7)):
-    x,z=ia*(1-t)+ib*t;screening_lane(f'SEC-I-{i+1:02}',x,z,np.pi/2)
+from guide_registration import SECURITY_DOMESTIC,SECURITY_INTERNATIONAL
+for i,p in enumerate(SECURITY_DOMESTIC):
+    x,z=project(np.array(p)/2+[910,630]);screening_lane(f'SEC-D-{i+1:02}',x,z)
+for i,p in enumerate(SECURITY_INTERNATIONAL):
+    x,z=project(np.array(p)/2+[910,630]);screening_lane(f'SEC-I-{i+1:02}',x,z,np.pi/2)
 ma=project([1451,834]);mb=project([1563,767])
 for i,t in enumerate(np.linspace(0,1,10)):
     x,z=ma*(1-t)+mb*t;g=f'Interior_Circulation_IMM-I-{i+1:02}'

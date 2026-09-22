@@ -71,7 +71,27 @@ def carousel(number,x,z,length):
     for dx in [-1.5,1.5]:rod(g,FRAME,(x+dx,F1,z+length/2+1),(x+dx,F1+2.45,z+length/2+1),.03,8)
     arrival_inventory.append(dict(id=number,type='baggage carousel',zone='domestic' if number<=6 else 'international',center=[x,F1,z],length=length,width=5.8,source='1F official guide numbering; photo belt profile; dimensions estimated'))
 
-for n,x,length in [(1,-86.5,18),(2,-62.5,20),(3,-38.5,22),(4,-14.5,23),(5,9.5,24),(6,33.5,25),(7,57.5,32),(8,81.5,22),(9,105.5,23),(10,129.5,24)]:carousel(n,x,52,length)
+from guide_registration import ARRIVAL, ARRIVAL_CENTRES, unproject
+def clear_carousel_center(center,length):
+    # Keep the existing structural grid. Search only within the 8-pixel manual
+    # reading uncertainty; the belt annulus must clear the square column wraps.
+    columns=np.array([(x,z) for x in np.arange(X0+6,X1,12) for z in [18,42,66,90]])
+    candidates=[]
+    for dx in np.arange(-3,3.01,.125):
+        for dz in np.arange(-3,3.01,.125):
+            delta=np.array([dx,dz]);error=np.linalg.norm(ARRIVAL[:,:2]@delta)
+            if error>8:continue
+            c=center+delta;distance=np.abs(columns-c)
+            nearest=np.maximum(distance-[.71,length/2-2.9+.71],0)
+            farthest=distance+[.71,.71];farthest[:,1]=np.maximum(farthest[:,1]-(length/2-2.9),0)
+            intersects=(np.linalg.norm(nearest,axis=1)<3.05)&(np.linalg.norm(farthest,axis=1)>1.75)
+            if not intersects.any():candidates.append((error,dx,dz,c))
+    if not candidates:raise ValueError(('No guide-consistent column clearance',center.tolist()))
+    return min(candidates,key=lambda r:r[:3])[3]
+
+for n,length in [(1,18),(2,20),(3,22),(4,23),(5,24),(6,25),(7,32),(8,22),(9,23),(10,24)]:
+    x,z=clear_carousel_center(unproject(ARRIVAL_CENTRES[n],ARRIVAL),length)
+    carousel(n,float(x),float(z),length)
 
 # Immigration upstream of the international carousels; customs at its exit.
 for x in [78,85,92,99,106,113,120,127,134]:

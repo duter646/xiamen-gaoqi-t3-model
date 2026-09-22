@@ -58,6 +58,8 @@ def counter(x,z,letter,number,side,selfbag=False):
 
 # Individual cyan counter footprints traced from the supplied guide, not its blue circulation floor.
 # Pixel coordinates refer to islands-reference.png (2x crop of the original).
+from guide_registration import CHECKIN, unproject
+
 island_specs=[
  ('A',-74,74,[(138,859),(182,834),(257,878),(213,903)],False),
  ('B',-42,74,[(290,774),(327,752),(442,819),(404,842)],False),
@@ -70,10 +72,12 @@ island_specs=[
 footprints=[]
 islands=[]
 for letter,x,z,pixels,has_return in island_specs:
-    source=np.array(pixels,dtype=float)/2
-    inverse=np.linalg.inv(np.array([[2.39,2.35],[-1.42,1.40]]))
-    local=(inverse@source.T).T
-    local-=local.mean(axis=0)
+    source=np.array(pixels,dtype=float)/2+[1080,1020]
+    outline=unproject(source,CHECKIN)
+    x,z=outline.mean(axis=0)
+    local=outline-[x,z]
+    # Small clearances within the guide corner-fit uncertainty, shared by all children.
+    x += {'D':1.4,'F':-1.4}.get(letter,0)
     width=float(np.ptp(local[:,0]));length=float(np.ptp(local[:,1]))
     islands.append((letter,x,z,length))
     # Separate baggage spines leave the staff aisle open; F/G have a rear return.
@@ -213,12 +217,11 @@ exec(compile((ROOT/'border14.py').read_text(encoding='utf-8'),str(ROOT/'border14
 exec(compile((ROOT/'doors_and_sides.py').read_text(encoding='utf-8'),str(ROOT/'doors_and_sides.py'),'exec'))
 exec(compile((ROOT/'west_stair_fix.py').read_text(encoding='utf-8'),str(ROOT/'west_stair_fix.py'),'exec'))
 exec(compile((ROOT/'envelope11.py').read_text(encoding='utf-8'),str(ROOT/'envelope11.py'),'exec'))
-exec(compile((ROOT/'void21.py').read_text(encoding='utf-8'),str(ROOT/'void21.py'),'exec'))
-exec(compile((ROOT/'sign_mounts.py').read_text(encoding='utf-8'),str(ROOT/'sign_mounts.py'),'exec'))
 exec(compile((ROOT/'facade13.py').read_text(encoding='utf-8'),str(ROOT/'facade13.py'),'exec'))
 exec(compile((ROOT/'finish_geometry14.py').read_text(encoding='utf-8'),str(ROOT/'finish_geometry14.py'),'exec'))
 exec(compile((ROOT/'facade17.py').read_text(encoding='utf-8'),str(ROOT/'facade17.py'),'exec'))
-exec(compile((ROOT/'shop_boundary.py').read_text(encoding='utf-8'),str(ROOT/'shop_boundary.py'),'exec'))
+exec(compile((ROOT/'guide_spaces.py').read_text(encoding='utf-8'),str(ROOT/'guide_spaces.py'),'exec'))
+exec(compile((ROOT/'sign_mounts.py').read_text(encoding='utf-8'),str(ROOT/'sign_mounts.py'),'exec'))
 assert len(text_items)<=256
 atlas2=Image.new('RGB',(2048,8192),(12,25,28));painter=ImageDraw.Draw(atlas2)
 for i,(cn,en,color) in enumerate(text_items):

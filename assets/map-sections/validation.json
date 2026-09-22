@@ -1,0 +1,458 @@
+{
+  "reports": {
+    "validation-report": {
+      "format": "GLB 2.0",
+      "structural_checks": "passed",
+      "meshes": 756,
+      "embedded_textures": 9,
+      "bytes": 72093304,
+      "sha256": "fdc724998379bbf48c0478419d7a0a08f6a48b1559f64b5989ba98a9d81eb9ad",
+      "notes": "Checks bounds, chunks, finite geometry, matching attribute counts, embedded PNGs. Browser visual checks recorded separately."
+    },
+    "guide-fixtures-validation": {
+      "issues": [],
+      "heights": [
+        0.7,
+        1.0,
+        6.85,
+        7.3,
+        12.65,
+        13.6,
+        14.5
+      ],
+      "scope": "actual triangle-section segment crossings: counters, belts, guide shops, security equipment against main and concourse columns; not building-wide collision certification"
+    },
+    "lifts-validation": {
+      "lifts": [
+        {
+          "id": "L2-L01",
+          "base": 6.3,
+          "top": 12.1
+        },
+        {
+          "id": "L3-L02",
+          "base": 6.3,
+          "top": 12.1
+        },
+        {
+          "id": "L2-L02",
+          "base": 0.3,
+          "top": 6.3
+        },
+        {
+          "id": "L2-L04",
+          "base": 0.3,
+          "top": 6.3
+        }
+      ],
+      "failures": [],
+      "scope": "four modelled shafts; closed door surfaces, front enclosure, threshold support, upper slab openings; car mechanism and surveyed dimensions not assessed"
+    },
+    "guide-spaces-validation": {
+      "shops": [
+        {
+          "id": "D-SH01",
+          "target": [
+            -50.63254419693698,
+            36.8176051148417
+          ],
+          "public_or_post_border_access": true,
+          "bypasses_sealed_security": false
+        },
+        {
+          "id": "D-SH02",
+          "target": [
+            -47.35763888993462,
+            48.91760639059529
+          ],
+          "public_or_post_border_access": true,
+          "bypasses_sealed_security": false
+        },
+        {
+          "id": "D-SH03",
+          "target": [
+            -75.12887739548665,
+            48.62522587818915
+          ],
+          "public_or_post_border_access": true,
+          "bypasses_sealed_security": false
+        },
+        {
+          "id": "D-CF01",
+          "target": [
+            -90.06195615958165,
+            48.012714065067215
+          ],
+          "public_or_post_border_access": true,
+          "bypasses_sealed_security": false
+        },
+        {
+          "id": "I-SH01",
+          "target": [
+            120.89555350297188,
+            28.12120751632476
+          ],
+          "public_or_post_border_access": true,
+          "bypasses_sealed_security": false
+        }
+      ],
+      "upper_voids": [
+        {
+          "point": [
+            -76,
+            22
+          ],
+          "floor_present": false
+        },
+        {
+          "point": [
+            -40,
+            24
+          ],
+          "floor_present": false
+        },
+        {
+          "point": [
+            40,
+            24
+          ],
+          "floor_present": false
+        }
+      ],
+      "errors": [],
+      "scope": "actual GLB slices: shop doorway access, sealed-security bypass, shop-wall support, three guide void centres"
+    },
+    "controlled-flow-validation": {
+      "checks": [
+        {
+          "label": "domestic public to gate",
+          "reachable": true,
+          "expected": true,
+          "passed": true
+        },
+        {
+          "label": "domestic security sealed",
+          "reachable": false,
+          "expected": false,
+          "passed": true
+        },
+        {
+          "label": "international ordered route",
+          "reachable": true,
+          "expected": true,
+          "passed": true
+        },
+        {
+          "label": "border sealed to post-border",
+          "reachable": false,
+          "expected": false,
+          "passed": true
+        },
+        {
+          "label": "border sealed to gates",
+          "reachable": false,
+          "expected": false,
+          "passed": true
+        },
+        {
+          "label": "international security sealed",
+          "reachable": false,
+          "expected": false,
+          "passed": true
+        },
+        {
+          "label": "domestic to international gates",
+          "reachable": false,
+          "expected": false,
+          "passed": true
+        },
+        {
+          "label": "international gates to arrival",
+          "reachable": true,
+          "expected": true,
+          "passed": true
+        },
+        {
+          "label": "domestic gates to international arrival",
+          "reachable": false,
+          "expected": false,
+          "passed": true
+        },
+        {
+          "label": "west lift lobby to gallery",
+          "reachable": true,
+          "expected": true,
+          "passed": true
+        },
+        {
+          "label": "east lift lobby to gallery",
+          "reachable": true,
+          "expected": true,
+          "passed": true
+        },
+        {
+          "label": "arrival gallery to public check-in",
+          "reachable": false,
+          "expected": false,
+          "passed": true
+        },
+        {
+          "label": "domestic to international arrival gallery",
+          "reachable": false,
+          "expected": false,
+          "passed": true
+        }
+      ],
+      "errors": [],
+      "scope": "actual GLB: .25m grid, .22m radius, 3 sampled body heights; virtual control-bank sealing; no elevator car simulation"
+    },
+    "security-all-geometry-validation": {
+      "body_width_m": 0.68,
+      "heights_y": [
+        12.3,
+        13.0,
+        13.8
+      ],
+      "floor_sampling_m": 0.5,
+      "paths": 28,
+      "passed": 28,
+      "results": [
+        {
+          "id": "SEC-D-01",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-02",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-03",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-04",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-05",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-06",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-07",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-08",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-09",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-10",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-11",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-12",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-13",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-14",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-15",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-16",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-17",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-18",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-19",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-D-20",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-I-01",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-I-02",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-I-03",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-I-04",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-I-05",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-I-06",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-I-07",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        },
+        {
+          "id": "SEC-I-08",
+          "passed": true,
+          "collisions": [],
+          "unsupported_floor_samples": []
+        }
+      ]
+    },
+    "arrival-validation": {
+      "carousels": 10,
+      "stairs": [
+        {
+          "id": "L3-E04",
+          "headroom_passed": true,
+          "collisions": []
+        },
+        {
+          "id": "L3-E05",
+          "headroom_passed": true,
+          "collisions": []
+        }
+      ],
+      "scope": "Actual GLB vertical headroom samples along both treads; east-west direction; not full passenger routing certification."
+    },
+    "revision14-validation": {
+      "international_stair_and_lower_void_issues": [],
+      "flat_ceiling_panels": 504,
+      "sign_source": "unchanged RGBA user image, not stretched"
+    },
+    "door-west-validation": {
+      "street_doors": 12,
+      "west_lower_y": 0.28,
+      "failures": []
+    },
+    "concourse-validation": {
+      "model_sha256": "fdc724998379bbf48c0478419d7a0a08f6a48b1559f64b5989ba98a9d81eb9ad",
+      "gates_checked": [
+        "17",
+        "16",
+        "15",
+        "12",
+        "11",
+        "10",
+        "9",
+        "8",
+        "7",
+        "6",
+        "5",
+        "3",
+        "2",
+        "1"
+      ],
+      "portal_body_samples": 126,
+      "portal_support_samples": 126,
+      "east_wall_samples": 9,
+      "west_isolation_samples": 3,
+      "errors": []
+    },
+    "viewer": {
+      "errors": [],
+      "routeControls": 4,
+      "views": 10,
+      "movementMetres": {
+        "normal": 24.12480000007152,
+        "shift": 73.27440000021458
+      },
+      "floorAndViewPreserveRoutes": true,
+      "mobileNoOverflow": true
+    },
+    "map-sections-browser": {
+      "errors": [],
+      "sections": 3,
+      "modelFloors": 2
+    }
+  },
+  "sha256": "fdc724998379bbf48c0478419d7a0a08f6a48b1559f64b5989ba98a9d81eb9ad"
+}

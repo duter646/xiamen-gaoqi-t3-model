@@ -1,0 +1,3785 @@
+{
+  "model_sha256": "fdc724998379bbf48c0478419d7a0a08f6a48b1559f64b5989ba98a9d81eb9ad",
+  "method": "actual GLB triangle-plane intersections; no model mutations",
+  "limitations": [
+    "Guide is not a surveyed plan",
+    "No dimensional or collision pass asserted",
+    "No camera refitting per component"
+  ],
+  "views": [
+    {
+      "id": "arrival",
+      "source": "official-arrival-map.jpg",
+      "source_sha256": "ef28d7eade0285d7c30753076a7667a543e0800ec537e340c2aea38e90dbae35",
+      "transform_xz_to_pixels": [
+        [
+          2.564814814814815,
+          3.0555555555555527,
+          708.9675925925927
+        ],
+        [
+          -1.4490740740740735,
+          1.833333333333341,
+          798.3217592592588
+        ]
+      ],
+      "slice_heights": [
+        0.8500000000000001,
+        1.8
+      ],
+      "crop": [
+        310,
+        510,
+        1580,
+        1240
+      ],
+      "note": "以 1、10 号行李转盘中心和 1 号转盘长轴端点作临时配准；其余转盘按图定位并留出柱体间隙。重投影残差仅说明拟合结果，不能验证实际尺寸。",
+      "inventory": [
+        {
+          "mesh": "Structure_Columns_0",
+          "section": "low",
+          "segments": 2352
+        },
+        {
+          "mesh": "Unverified_West2024Structure_0",
+          "section": "low",
+          "segments": 96
+        },
+        {
+          "mesh": "Unverified_West2024GateDesks_10",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Seating_1",
+          "section": "low",
+          "segments": 8640
+        },
+        {
+          "mesh": "Interior_Seating_24",
+          "section": "low",
+          "segments": 480
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L02_0",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L02_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L04_0",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L04_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E02_3",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E02_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E02_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E04_3",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E04_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E04_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalZoneBoundary_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_InternationalArrivalShaft_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_ArrivalPublicBoundary_46",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_ArrivalExitFrames_1",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_1_1",
+          "section": "low",
+          "segments": 132
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_2_1",
+          "section": "low",
+          "segments": 132
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_3_1",
+          "section": "low",
+          "segments": 132
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_4_1",
+          "section": "low",
+          "segments": 132
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_5_1",
+          "section": "low",
+          "segments": 132
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_6_1",
+          "section": "low",
+          "segments": 132
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_7_1",
+          "section": "low",
+          "segments": 132
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_8_1",
+          "section": "low",
+          "segments": 132
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_9_1",
+          "section": "low",
+          "segments": 132
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_10_1",
+          "section": "low",
+          "segments": 132
+        },
+        {
+          "mesh": "Interior_ArrivalImmigration_30",
+          "section": "low",
+          "segments": 72
+        },
+        {
+          "mesh": "Interior_ArrivalCustoms_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_ArrivalService_west-toilet_0",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_ArrivalService_west-restaurant_0",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_ArrivalService_east-restaurant_0",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_ArrivalService_baggage-service_0",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_ArrivalService_east-toilet_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_ArrivalPublicDesks_31",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_ArrivalTrolleys_1",
+          "section": "low",
+          "segments": 960
+        },
+        {
+          "mesh": "Interior_ArrivalColumnWrap_0",
+          "section": "low",
+          "segments": 672
+        },
+        {
+          "mesh": "Interior_ArrivalColumnSkirt_1",
+          "section": "low",
+          "segments": 672
+        },
+        {
+          "mesh": "Facade_ArrivalDoorFrames_1",
+          "section": "low",
+          "segments": 96
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E01_3",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E01_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E04_3",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E04_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E05_3",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E05_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Facade_EntranceWithOpenDoors_4",
+          "section": "low",
+          "segments": 56
+        },
+        {
+          "mesh": "Facade_OpenEntranceFrames_1",
+          "section": "low",
+          "segments": 96
+        },
+        {
+          "mesh": "Facade_OpenSlidingLeaves_4",
+          "section": "low",
+          "segments": 96
+        },
+        {
+          "mesh": "Facade_ArrivalSideWalls_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Unverified_West2024End_0",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Unverified_West2024OpenEnd_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Facade_ArrivalApronWall_0",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Facade_ArrivalApronPilasters_2",
+          "section": "low",
+          "segments": 336
+        },
+        {
+          "mesh": "Unverified_West2024DoorFrames_1",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Unverified_West2024OpenGateLeaves_4",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Unverified_West2024Glazing_4",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Unverified_West2024Glazing_0",
+          "section": "low",
+          "segments": 512
+        },
+        {
+          "mesh": "Structure_LiftLobbySupportPosts_2",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Structure_ConcourseBase_2",
+          "section": "low",
+          "segments": 344
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_0_Support_1",
+          "section": "low",
+          "segments": 280
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_1_Support_1",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Exterior_JetBridge_16_2_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_15_3_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_12_4_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_11_5_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_10_6_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_7_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_8_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_8_9_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_7_10_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_6_11_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_5_12_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_3_13_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_2_14_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_1_15_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Structure_WestReturnSupport_0",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Structure_Columns_0",
+          "section": "walls",
+          "segments": 2352
+        },
+        {
+          "mesh": "Unverified_West2024Structure_0",
+          "section": "walls",
+          "segments": 96
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L02_0",
+          "section": "walls",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L02_1",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L04_0",
+          "section": "walls",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L04_1",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E02_3",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E02_1",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E02_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E04_3",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E04_1",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E04_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalZoneBoundary_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_InternationalArrivalShaft_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_ArrivalPublicBoundary_46",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_ArrivalExitFrames_1",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_1_1",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_2_1",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_3_1",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_4_1",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_5_1",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_6_1",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_7_1",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_8_1",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_9_1",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalCarousel_10_1",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalImmigration_46",
+          "section": "walls",
+          "segments": 72
+        },
+        {
+          "mesh": "Interior_ArrivalService_west-toilet_0",
+          "section": "walls",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_ArrivalService_west-restaurant_0",
+          "section": "walls",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_ArrivalService_east-restaurant_0",
+          "section": "walls",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_ArrivalService_baggage-service_0",
+          "section": "walls",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_ArrivalService_east-toilet_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_ArrivalColumnWrap_0",
+          "section": "walls",
+          "segments": 672
+        },
+        {
+          "mesh": "Facade_ArrivalDoorFrames_1",
+          "section": "walls",
+          "segments": 96
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E01_3",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E01_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E04_3",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E04_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E05_3",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E05_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Facade_EntranceWithOpenDoors_4",
+          "section": "walls",
+          "segments": 56
+        },
+        {
+          "mesh": "Facade_OpenEntranceFrames_1",
+          "section": "walls",
+          "segments": 96
+        },
+        {
+          "mesh": "Facade_OpenSlidingLeaves_4",
+          "section": "walls",
+          "segments": 96
+        },
+        {
+          "mesh": "Facade_ArrivalSideWalls_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Unverified_West2024End_0",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Unverified_West2024OpenEnd_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Facade_ArrivalApronWall_0",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Facade_ArrivalApronPilasters_2",
+          "section": "walls",
+          "segments": 336
+        },
+        {
+          "mesh": "Unverified_West2024DoorFrames_1",
+          "section": "walls",
+          "segments": 64
+        },
+        {
+          "mesh": "Unverified_West2024OpenGateLeaves_4",
+          "section": "walls",
+          "segments": 64
+        },
+        {
+          "mesh": "Unverified_West2024Glazing_4",
+          "section": "walls",
+          "segments": 38
+        },
+        {
+          "mesh": "Unverified_West2024Glazing_0",
+          "section": "walls",
+          "segments": 512
+        },
+        {
+          "mesh": "Structure_LiftLobbySupportPosts_2",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Structure_ConcourseBase_2",
+          "section": "walls",
+          "segments": 344
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_0_Support_1",
+          "section": "walls",
+          "segments": 280
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_1_Support_1",
+          "section": "walls",
+          "segments": 40
+        },
+        {
+          "mesh": "Exterior_JetBridge_16_2_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_15_3_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_12_4_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_11_5_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_10_6_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_7_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_8_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_8_9_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_7_10_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_6_11_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_5_12_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_3_13_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_2_14_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_1_15_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Structure_WestReturnSupport_0",
+          "section": "walls",
+          "segments": 40
+        }
+      ]
+    },
+    {
+      "id": "checkin",
+      "source": "official-departure-map.jpg",
+      "source_sha256": "b5f207a2b174d0797bb1ba4a9815caf82fe78613ddf3e976591d57ec94a0c715",
+      "transform_xz_to_pixels": [
+        [
+          3.0000000000000018,
+          3.047619047619051,
+          1120.428571428572
+        ],
+        [
+          -1.712301587301589,
+          1.8869047619047734,
+          1240.6716269841277
+        ]
+      ],
+      "slice_heights": [
+        6.85,
+        7.8
+      ],
+      "crop": [
+        830,
+        990,
+        1900,
+        1640
+      ],
+      "note": "以值机大厅四个楼板边界角点单独配准；不复用上层图的比例。导览图边缘有变形，角点拟合约 9.5 像素残差；设施轮廓参与建模后不再是独立验证。",
+      "inventory": [
+        {
+          "mesh": "Structure_Columns_0",
+          "section": "low",
+          "segments": 2352
+        },
+        {
+          "mesh": "Interior_ColumnBases_1",
+          "section": "low",
+          "segments": 2352
+        },
+        {
+          "mesh": "Unverified_West2024Structure_0",
+          "section": "low",
+          "segments": 96
+        },
+        {
+          "mesh": "Interior_CheckIn_A_30",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_CheckInTruss_A_1",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_QueuePosts_1",
+          "section": "low",
+          "segments": 1792
+        },
+        {
+          "mesh": "Interior_CheckIn_B_30",
+          "section": "low",
+          "segments": 112
+        },
+        {
+          "mesh": "Interior_CheckInTruss_B_1",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_CheckIn_C_30",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_CheckIn_C_0",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_CheckInTruss_C_1",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_CheckIn_D_30",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_CheckInTruss_D_1",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_CheckIn_E_30",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_CheckInTruss_E_1",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_CheckIn_F_30",
+          "section": "low",
+          "segments": 112
+        },
+        {
+          "mesh": "Interior_CheckInTruss_F_1",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_CheckInReturn_F_30",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_CheckIn_G_30",
+          "section": "low",
+          "segments": 184
+        },
+        {
+          "mesh": "Interior_CheckInTruss_G_1",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_CheckInReturn_G_30",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_SelfCheckInKiosks_0",
+          "section": "low",
+          "segments": 96
+        },
+        {
+          "mesh": "Interior_InformationDesk_30",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_BaggageWrapping_1",
+          "section": "low",
+          "segments": 48
+        },
+        {
+          "mesh": "Interior_BaggageWrapping_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L01_0",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L01_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-L02_0",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L3-L02_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L02_0",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L02_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L04_0",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L04_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E02_3",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E02_1",
+          "section": "low",
+          "segments": 144
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E02_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E04_3",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E04_1",
+          "section": "low",
+          "segments": 144
+        },
+        {
+          "mesh": "Interior_Circulation_L2-E04_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_CheckInZoneSeparation_0",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_CheckInZoneFrames_1",
+          "section": "low",
+          "segments": 200
+        },
+        {
+          "mesh": "Interior_ArrivalGalleryEnclosure_0",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E01_3",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E01_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E01_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E02_3",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E02_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E03_3",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E03_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E06_3",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E06_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E04_3",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E04_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E04_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E05_3",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E05_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E05_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Facade_EntranceWithOpenDoors_4",
+          "section": "low",
+          "segments": 56
+        },
+        {
+          "mesh": "Facade_OpenEntranceFrames_1",
+          "section": "low",
+          "segments": 96
+        },
+        {
+          "mesh": "Facade_OpenSlidingLeaves_4",
+          "section": "low",
+          "segments": 96
+        },
+        {
+          "mesh": "Unverified_West2024End_0",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Unverified_West2024OpenEnd_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Facade_StonePiers_0",
+          "section": "low",
+          "segments": 309
+        },
+        {
+          "mesh": "Unverified_West2024Glazing_4",
+          "section": "low",
+          "segments": 52
+        },
+        {
+          "mesh": "Unverified_West2024Glazing_0",
+          "section": "low",
+          "segments": 560
+        },
+        {
+          "mesh": "Unverified_West2024Glazing_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_InternationalLowerVoidGuards_1",
+          "section": "low",
+          "segments": 168
+        },
+        {
+          "mesh": "Facade_EndGlazing_42",
+          "section": "low",
+          "segments": 148
+        },
+        {
+          "mesh": "Facade_PhotoFineMullions_0",
+          "section": "low",
+          "segments": 1408
+        },
+        {
+          "mesh": "Facade_PhotoPrimaryPiers_0",
+          "section": "low",
+          "segments": 144
+        },
+        {
+          "mesh": "Interior_LowerLiftLobbyWalls_0",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalGallerySeparation_46",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_SignSuspension_1",
+          "section": "low",
+          "segments": 128
+        },
+        {
+          "mesh": "Interior_SignFloorPosts_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Structure_LiftLobbySupportPosts_2",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Structure_ConcourseBase_2",
+          "section": "low",
+          "segments": 344
+        },
+        {
+          "mesh": "Structure_Level2_AirsideBoundary_0",
+          "section": "low",
+          "segments": 20
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_0_Support_1",
+          "section": "low",
+          "segments": 280
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_1_Support_1",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Exterior_JetBridge_16_2_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_15_3_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_12_4_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_11_5_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_10_6_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_7_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_8_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_8_9_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_7_10_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_6_11_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_5_12_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_3_13_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_2_14_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_1_15_Support_1",
+          "section": "low",
+          "segments": 80
+        },
+        {
+          "mesh": "Structure_WestReturnSupport_0",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Structure_Columns_0",
+          "section": "walls",
+          "segments": 2352
+        },
+        {
+          "mesh": "Interior_CheckIn_A_19",
+          "section": "walls",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_CheckInTruss_A_1",
+          "section": "walls",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_CheckIn_B_19",
+          "section": "walls",
+          "segments": 112
+        },
+        {
+          "mesh": "Interior_CheckInTruss_B_1",
+          "section": "walls",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_CheckIn_C_19",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_CheckIn_C_0",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_CheckInTruss_C_1",
+          "section": "walls",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_CheckIn_D_19",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_CheckInTruss_D_1",
+          "section": "walls",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_CheckIn_E_19",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_CheckInTruss_E_1",
+          "section": "walls",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_CheckIn_F_19",
+          "section": "walls",
+          "segments": 112
+        },
+        {
+          "mesh": "Interior_CheckInTruss_F_1",
+          "section": "walls",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_CheckIn_G_19",
+          "section": "walls",
+          "segments": 184
+        },
+        {
+          "mesh": "Interior_CheckInTruss_G_1",
+          "section": "walls",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_SelfCheckInKiosks_19",
+          "section": "walls",
+          "segments": 96
+        },
+        {
+          "mesh": "Interior_InformationDesk_3",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_InformationDesk_34",
+          "section": "walls",
+          "segments": 4
+        },
+        {
+          "mesh": "Interior_BaggageWrapping_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L01_0",
+          "section": "walls",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L01_1",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-L02_0",
+          "section": "walls",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L3-L02_1",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L02_0",
+          "section": "walls",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L02_1",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L04_0",
+          "section": "walls",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L04_1",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_CheckInZoneSeparation_46",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_CheckInZoneFrames_1",
+          "section": "walls",
+          "segments": 200
+        },
+        {
+          "mesh": "Interior_ArrivalGalleryEnclosure_0",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E01_3",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E01_1",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E01_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E02_3",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E02_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E03_3",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E03_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E06_3",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E06_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E04_3",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E04_1",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E04_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E05_3",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E05_1",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E05_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Facade_EntranceWithOpenDoors_4",
+          "section": "walls",
+          "segments": 56
+        },
+        {
+          "mesh": "Facade_OpenEntranceFrames_1",
+          "section": "walls",
+          "segments": 96
+        },
+        {
+          "mesh": "Facade_OpenSlidingLeaves_4",
+          "section": "walls",
+          "segments": 96
+        },
+        {
+          "mesh": "Facade_StonePiers_0",
+          "section": "walls",
+          "segments": 309
+        },
+        {
+          "mesh": "Facade_EndGlazing_42",
+          "section": "walls",
+          "segments": 148
+        },
+        {
+          "mesh": "Facade_PhotoFineMullions_0",
+          "section": "walls",
+          "segments": 1408
+        },
+        {
+          "mesh": "Facade_PhotoPrimaryPiers_0",
+          "section": "walls",
+          "segments": 144
+        },
+        {
+          "mesh": "Interior_LowerLiftLobbyWalls_0",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_ArrivalGallerySeparation_46",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_SignFloorPosts_1",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Structure_LiftLobbySupportPosts_2",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Structure_ConcourseBase_2",
+          "section": "walls",
+          "segments": 344
+        },
+        {
+          "mesh": "Structure_Level2_AirsideBoundary_0",
+          "section": "walls",
+          "segments": 19
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_0_Support_1",
+          "section": "walls",
+          "segments": 280
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_1_Support_1",
+          "section": "walls",
+          "segments": 40
+        },
+        {
+          "mesh": "Exterior_JetBridge_16_2_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_15_3_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_12_4_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_11_5_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_10_6_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_7_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_8_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_8_9_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_7_10_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_6_11_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_5_12_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_3_13_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_2_14_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Exterior_JetBridge_1_15_Support_1",
+          "section": "walls",
+          "segments": 80
+        },
+        {
+          "mesh": "Structure_WestReturnSupport_0",
+          "section": "walls",
+          "segments": 40
+        }
+      ]
+    },
+    {
+      "id": "departure",
+      "source": "official-departure-map.jpg",
+      "source_sha256": "b5f207a2b174d0797bb1ba4a9815caf82fe78613ddf3e976591d57ec94a0c715",
+      "transform_xz_to_pixels": [
+        [
+          2.39,
+          2.35,
+          1175.135
+        ],
+        [
+          -1.42,
+          1.4,
+          830.22
+        ]
+      ],
+      "slice_heights": [
+        12.65,
+        13.6
+      ],
+      "crop": [
+        150,
+        240,
+        2170,
+        1420
+      ],
+      "note": "沿用候机层既有斜投影变换。官方图为展开示意，模型称 3F；局部拉伸及年代差异需单独核查。",
+      "inventory": [
+        {
+          "mesh": "Structure_Columns_0",
+          "section": "low",
+          "segments": 2352
+        },
+        {
+          "mesh": "Interior_MovingWalkways_4",
+          "section": "low",
+          "segments": 256
+        },
+        {
+          "mesh": "Interior_ConcourseColumns_0",
+          "section": "low",
+          "segments": 2048
+        },
+        {
+          "mesh": "Interior_Facility_west-lounge1_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Seating_1",
+          "section": "low",
+          "segments": 9560
+        },
+        {
+          "mesh": "Interior_Seating_32",
+          "section": "low",
+          "segments": 620
+        },
+        {
+          "mesh": "Interior_Facility_west-lounge1_1",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Facility_west-lounge2_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_west-lounge2_1",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Facility_west-cafe_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_west-cafe_1",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Facility_gate5-shop_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate5-shop_31",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate6-lounge_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate6-lounge_1",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Facility_gate7-shop_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate7-shop_31",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate8-shop_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate8-shop_31",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate9-service_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate9-service_31",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate10-dutyfree_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate10-dutyfree_31",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate11-dutyfree_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate11-dutyfree_31",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate12-cafe_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate12-cafe_1",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Facility_gate15-shop_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate15-shop_31",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate16-service_0",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate16-service_31",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_GateCounter_30",
+          "section": "low",
+          "segments": 112
+        },
+        {
+          "mesh": "Interior_GateReaders_1",
+          "section": "low",
+          "segments": 224
+        },
+        {
+          "mesh": "Interior_Bins_1",
+          "section": "low",
+          "segments": 252
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L01_0",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L01_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-L02_0",
+          "section": "low",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L3-L02_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-01_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-01_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-01_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-02_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-02_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-02_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-03_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-03_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-03_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-04_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-04_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-04_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-05_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-05_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-05_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-06_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-06_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-06_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-07_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-07_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-07_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-08_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-08_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-08_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-09_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-09_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-09_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-10_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-10_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-10_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-11_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-11_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-11_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-12_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-12_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-12_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-13_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-13_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-13_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-14_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-14_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-14_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-15_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-15_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-15_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-16_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-16_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-16_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-17_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-17_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-17_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-18_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-18_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-18_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-19_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-19_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-19_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-20_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-20_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-20_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-01_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-01_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-01_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-02_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-02_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-02_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-03_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-03_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-03_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-04_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-04_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-04_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-05_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-05_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-05_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-06_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-06_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-06_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-07_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-07_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-07_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-08_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-08_30",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-08_3",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-01_30",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-02_30",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-03_30",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-04_30",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-05_30",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-06_30",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-07_30",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-08_30",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-09_30",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-10_30",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_SecurityIsolation_41",
+          "section": "low",
+          "segments": 752
+        },
+        {
+          "mesh": "Interior_SecurityIsolation_1",
+          "section": "low",
+          "segments": 2328
+        },
+        {
+          "mesh": "Interior_SecurityQueue_1",
+          "section": "low",
+          "segments": 1792
+        },
+        {
+          "mesh": "Interior_Seating_11",
+          "section": "low",
+          "segments": 336
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E01_3",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E01_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E02_3",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E02_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E03_3",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E03_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E06_3",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E06_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E04_3",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E04_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E05_3",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_Circulation_L3-E05_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Interior_SupportedOpeningGuards_1",
+          "section": "low",
+          "segments": 3336
+        },
+        {
+          "mesh": "Interior_SupportedOpeningGlass_46",
+          "section": "low",
+          "segments": 592
+        },
+        {
+          "mesh": "Interior_InternationalPurpleBoundary_46",
+          "section": "low",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_ImmigrationPassageReaders_1",
+          "section": "low",
+          "segments": 160
+        },
+        {
+          "mesh": "Interior_ImmigrationControlledBoundary_46",
+          "section": "low",
+          "segments": 88
+        },
+        {
+          "mesh": "Interior_InternationalOuterWall_0",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Facade_EntranceWithOpenDoors_4",
+          "section": "low",
+          "segments": 104
+        },
+        {
+          "mesh": "Facade_WestStairDoorFrame_1",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Roof_InternationalDIslandCeilingHangers_1",
+          "section": "low",
+          "segments": 48
+        },
+        {
+          "mesh": "Interior_ZoneSeparation_1",
+          "section": "low",
+          "segments": 728
+        },
+        {
+          "mesh": "Interior_ZoneSeparation_46",
+          "section": "low",
+          "segments": 70
+        },
+        {
+          "mesh": "Interior_CheckInVoidEdge_1",
+          "section": "low",
+          "segments": 1524
+        },
+        {
+          "mesh": "Interior_CheckInVoidEdgeGlass_46",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Roof_Canopy_0",
+          "section": "low",
+          "segments": 315
+        },
+        {
+          "mesh": "Roof_CanopyFrontFascia_0",
+          "section": "low",
+          "segments": 7
+        },
+        {
+          "mesh": "Roof_CanopyInsetEndCap_0",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Facade_EndGlazing_42",
+          "section": "low",
+          "segments": 153
+        },
+        {
+          "mesh": "Facade_SteppedLouvers_47",
+          "section": "low",
+          "segments": 148
+        },
+        {
+          "mesh": "Facade_PhotoFineMullions_0",
+          "section": "low",
+          "segments": 1360
+        },
+        {
+          "mesh": "Facade_PhotoPrimaryPiers_0",
+          "section": "low",
+          "segments": 144
+        },
+        {
+          "mesh": "Interior_Circulation_D-SH01_0",
+          "section": "low",
+          "segments": 96
+        },
+        {
+          "mesh": "Interior_Circulation_D-SH02_0",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_Circulation_D-SH03_0",
+          "section": "low",
+          "segments": 72
+        },
+        {
+          "mesh": "Interior_Circulation_D-CF01_0",
+          "section": "low",
+          "segments": 56
+        },
+        {
+          "mesh": "Interior_Circulation_I-SH01_0",
+          "section": "low",
+          "segments": 56
+        },
+        {
+          "mesh": "Interior_SignSuspension_1",
+          "section": "low",
+          "segments": 288
+        },
+        {
+          "mesh": "Interior_SignFloorPosts_1",
+          "section": "low",
+          "segments": 48
+        },
+        {
+          "mesh": "Facade_ConcourseCurves_22",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Facade_ConcourseWestEnd_22",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Facade_ConcourseEastReturn_22",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Facade_Gate17EastWall_4",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Facade_Gate17RearWall_4",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Facade_Gate17ApronWall_4",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Facade_Gate17RearReturn_22",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Facade_Gate17Mullions_0",
+          "section": "low",
+          "segments": 88
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_0_Wall_4",
+          "section": "low",
+          "segments": 112
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_0_Mullion_0",
+          "section": "low",
+          "segments": 656
+        },
+        {
+          "mesh": "Facade_GateInterfaceJamb_1",
+          "section": "low",
+          "segments": 224
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_1_Wall_4",
+          "section": "low",
+          "segments": 16
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_1_Mullion_0",
+          "section": "low",
+          "segments": 208
+        },
+        {
+          "mesh": "Exterior_JetBridge_16_2_Wall_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_16_2_Mullion_0",
+          "section": "low",
+          "segments": 448
+        },
+        {
+          "mesh": "Exterior_JetBridge_15_3_Wall_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_15_3_Mullion_0",
+          "section": "low",
+          "segments": 544
+        },
+        {
+          "mesh": "Exterior_JetBridge_12_4_Wall_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_12_4_Mullion_0",
+          "section": "low",
+          "segments": 544
+        },
+        {
+          "mesh": "Exterior_JetBridge_11_5_Wall_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_11_5_Mullion_0",
+          "section": "low",
+          "segments": 544
+        },
+        {
+          "mesh": "Exterior_JetBridge_10_6_Wall_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_10_6_Mullion_0",
+          "section": "low",
+          "segments": 464
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_7_Wall_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_7_Mullion_0",
+          "section": "low",
+          "segments": 400
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_8_Wall_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_8_Mullion_0",
+          "section": "low",
+          "segments": 240
+        },
+        {
+          "mesh": "Exterior_JetBridge_8_9_Wall_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_8_9_Mullion_0",
+          "section": "low",
+          "segments": 448
+        },
+        {
+          "mesh": "Exterior_JetBridge_7_10_Wall_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_7_10_Mullion_0",
+          "section": "low",
+          "segments": 544
+        },
+        {
+          "mesh": "Exterior_JetBridge_6_11_Wall_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_6_11_Mullion_0",
+          "section": "low",
+          "segments": 560
+        },
+        {
+          "mesh": "Exterior_JetBridge_5_12_Wall_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_5_12_Mullion_0",
+          "section": "low",
+          "segments": 544
+        },
+        {
+          "mesh": "Exterior_JetBridge_3_13_Wall_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_3_13_Mullion_0",
+          "section": "low",
+          "segments": 464
+        },
+        {
+          "mesh": "Exterior_JetBridge_2_14_Wall_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_2_14_Mullion_0",
+          "section": "low",
+          "segments": 576
+        },
+        {
+          "mesh": "Exterior_JetBridge_1_15_Wall_4",
+          "section": "low",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_1_15_Mullion_0",
+          "section": "low",
+          "segments": 528
+        },
+        {
+          "mesh": "Facade_WestReturnWall_22",
+          "section": "low",
+          "segments": 64
+        },
+        {
+          "mesh": "Facade_WestReturnClosure_22",
+          "section": "low",
+          "segments": 8
+        },
+        {
+          "mesh": "Structure_Columns_0",
+          "section": "walls",
+          "segments": 2352
+        },
+        {
+          "mesh": "Interior_ConcourseColumns_0",
+          "section": "walls",
+          "segments": 2048
+        },
+        {
+          "mesh": "Interior_Facility_west-lounge1_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_west-lounge2_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_west-cafe_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate5-shop_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate6-lounge_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate7-shop_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate8-shop_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate9-service_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate10-dutyfree_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate11-dutyfree_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate12-cafe_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate15-shop_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Facility_gate16-service_0",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L01_0",
+          "section": "walls",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L2-L01_1",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_L3-L02_0",
+          "section": "walls",
+          "segments": 40
+        },
+        {
+          "mesh": "Interior_Circulation_L3-L02_1",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-01_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-01_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-02_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-02_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-03_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-03_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-04_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-04_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-05_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-05_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-06_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-06_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-07_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-07_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-08_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-08_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-09_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-09_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-10_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-10_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-11_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-11_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-12_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-12_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-13_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-13_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-14_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-14_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-15_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-15_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-16_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-16_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-17_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-17_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-18_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-18_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-19_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-19_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-20_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-D-20_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-01_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-01_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-02_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-02_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-03_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-03_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-04_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-04_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-05_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-05_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-06_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-06_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-07_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-07_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-08_0",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Interior_Circulation_SEC-I-08_30",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-01_4",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-02_4",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-03_4",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-04_4",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-05_4",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-06_4",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-07_4",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-08_4",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-09_4",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_Circulation_IMM-I-10_4",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Interior_SecurityIsolation_41",
+          "section": "walls",
+          "segments": 752
+        },
+        {
+          "mesh": "Interior_SecurityIsolation_1",
+          "section": "walls",
+          "segments": 2328
+        },
+        {
+          "mesh": "Roof_InternalTriangleSupports_0",
+          "section": "walls",
+          "segments": 336
+        },
+        {
+          "mesh": "Roof_Clerestory_0",
+          "section": "walls",
+          "segments": 336
+        },
+        {
+          "mesh": "Roof_Clerestory_2",
+          "section": "walls",
+          "segments": 336
+        },
+        {
+          "mesh": "Roof_Clerestory_23",
+          "section": "walls",
+          "segments": 336
+        },
+        {
+          "mesh": "Roof_Clerestory_1",
+          "section": "walls",
+          "segments": 1344
+        },
+        {
+          "mesh": "Interior_InternationalPurpleBoundary_46",
+          "section": "walls",
+          "segments": 24
+        },
+        {
+          "mesh": "Interior_ImmigrationControlledBoundary_46",
+          "section": "walls",
+          "segments": 88
+        },
+        {
+          "mesh": "Interior_InternationalOuterWall_0",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Facade_WestStairDoorFrame_1",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Roof_InternationalDIslandCeilingHangers_1",
+          "section": "walls",
+          "segments": 48
+        },
+        {
+          "mesh": "Interior_ZoneSeparation_1",
+          "section": "walls",
+          "segments": 728
+        },
+        {
+          "mesh": "Interior_ZoneSeparation_46",
+          "section": "walls",
+          "segments": 70
+        },
+        {
+          "mesh": "Roof_Canopy_0",
+          "section": "walls",
+          "segments": 315
+        },
+        {
+          "mesh": "Roof_CanopyCables_1",
+          "section": "walls",
+          "segments": 306
+        },
+        {
+          "mesh": "Facade_EndGlazing_42",
+          "section": "walls",
+          "segments": 153
+        },
+        {
+          "mesh": "Facade_PhotoFineMullions_0",
+          "section": "walls",
+          "segments": 1360
+        },
+        {
+          "mesh": "Facade_PhotoPrimaryPiers_0",
+          "section": "walls",
+          "segments": 144
+        },
+        {
+          "mesh": "Interior_Circulation_D-SH01_0",
+          "section": "walls",
+          "segments": 96
+        },
+        {
+          "mesh": "Interior_Circulation_D-SH02_0",
+          "section": "walls",
+          "segments": 64
+        },
+        {
+          "mesh": "Interior_Circulation_D-SH03_0",
+          "section": "walls",
+          "segments": 72
+        },
+        {
+          "mesh": "Interior_Circulation_D-CF01_0",
+          "section": "walls",
+          "segments": 56
+        },
+        {
+          "mesh": "Interior_Circulation_I-SH01_0",
+          "section": "walls",
+          "segments": 56
+        },
+        {
+          "mesh": "Interior_SignSuspension_1",
+          "section": "walls",
+          "segments": 288
+        },
+        {
+          "mesh": "Interior_SignFloorPosts_1",
+          "section": "walls",
+          "segments": 48
+        },
+        {
+          "mesh": "Facade_ConcoursePortholes_22",
+          "section": "walls",
+          "segments": 1872
+        },
+        {
+          "mesh": "Facade_ConcoursePortholes_2",
+          "section": "walls",
+          "segments": 1068
+        },
+        {
+          "mesh": "Facade_ConcoursePortholes_4",
+          "section": "walls",
+          "segments": 3204
+        },
+        {
+          "mesh": "Facade_ConcoursePortholes_1",
+          "section": "walls",
+          "segments": 9612
+        },
+        {
+          "mesh": "Facade_GatePortalWall_22",
+          "section": "walls",
+          "segments": 208
+        },
+        {
+          "mesh": "Facade_ConcourseWestEnd_22",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Facade_ConcourseEastReturn_22",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Facade_Gate17EastWall_4",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Facade_Gate17RearWall_4",
+          "section": "walls",
+          "segments": 8
+        },
+        {
+          "mesh": "Facade_Gate17ApronWall_4",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Facade_Gate17RearReturn_22",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Facade_Gate17Mullions_0",
+          "section": "walls",
+          "segments": 88
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_0_Wall_4",
+          "section": "walls",
+          "segments": 112
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_0_Mullion_0",
+          "section": "walls",
+          "segments": 656
+        },
+        {
+          "mesh": "Facade_GateInterfaceJamb_1",
+          "section": "walls",
+          "segments": 224
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_1_Wall_4",
+          "section": "walls",
+          "segments": 16
+        },
+        {
+          "mesh": "Exterior_JetBridge_17_1_Mullion_0",
+          "section": "walls",
+          "segments": 208
+        },
+        {
+          "mesh": "Exterior_JetBridge_16_2_Wall_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_16_2_Mullion_0",
+          "section": "walls",
+          "segments": 448
+        },
+        {
+          "mesh": "Exterior_JetBridge_15_3_Wall_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_15_3_Mullion_0",
+          "section": "walls",
+          "segments": 544
+        },
+        {
+          "mesh": "Exterior_JetBridge_12_4_Wall_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_12_4_Mullion_0",
+          "section": "walls",
+          "segments": 544
+        },
+        {
+          "mesh": "Exterior_JetBridge_11_5_Wall_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_11_5_Mullion_0",
+          "section": "walls",
+          "segments": 544
+        },
+        {
+          "mesh": "Exterior_JetBridge_10_6_Wall_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_10_6_Mullion_0",
+          "section": "walls",
+          "segments": 464
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_7_Wall_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_7_Mullion_0",
+          "section": "walls",
+          "segments": 400
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_8_Wall_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_9_8_Mullion_0",
+          "section": "walls",
+          "segments": 240
+        },
+        {
+          "mesh": "Exterior_JetBridge_8_9_Wall_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_8_9_Mullion_0",
+          "section": "walls",
+          "segments": 448
+        },
+        {
+          "mesh": "Exterior_JetBridge_7_10_Wall_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_7_10_Mullion_0",
+          "section": "walls",
+          "segments": 544
+        },
+        {
+          "mesh": "Exterior_JetBridge_6_11_Wall_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_6_11_Mullion_0",
+          "section": "walls",
+          "segments": 560
+        },
+        {
+          "mesh": "Exterior_JetBridge_5_12_Wall_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_5_12_Mullion_0",
+          "section": "walls",
+          "segments": 544
+        },
+        {
+          "mesh": "Exterior_JetBridge_3_13_Wall_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_3_13_Mullion_0",
+          "section": "walls",
+          "segments": 464
+        },
+        {
+          "mesh": "Exterior_JetBridge_2_14_Wall_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_2_14_Mullion_0",
+          "section": "walls",
+          "segments": 576
+        },
+        {
+          "mesh": "Exterior_JetBridge_1_15_Wall_4",
+          "section": "walls",
+          "segments": 32
+        },
+        {
+          "mesh": "Exterior_JetBridge_1_15_Mullion_0",
+          "section": "walls",
+          "segments": 528
+        },
+        {
+          "mesh": "Facade_WestReturnWall_22",
+          "section": "walls",
+          "segments": 64
+        },
+        {
+          "mesh": "Facade_WestReturnClosure_22",
+          "section": "walls",
+          "segments": 8
+        }
+      ]
+    }
+  ],
+  "arrival_fitted_centres": [
+    {
+      "id": 2,
+      "mesh_center_xz": [
+        -58.93558311462402,
+        50.95463943481445
+      ],
+      "guide_pixel": [
+        711,
+        979
+      ],
+      "projected_pixel": [
+        713.5034675068325,
+        977.1406237549251
+      ],
+      "residual_pixels": 3.1184338342371842
+    },
+    {
+      "id": 3,
+      "mesh_center_xz": [
+        -34.290517807006836,
+        52.35749435424805
+      ],
+      "guide_pixel": [
+        781,
+        944
+      ],
+      "projected_pixel": [
+        780.9999972626015,
+        943.9999992494229
+      ],
+      "residual_pixels": 2.8384355953214743e-06
+    },
+    {
+      "id": 4,
+      "mesh_center_xz": [
+        -10.630926609039307,
+        49.6856575012207
+      ],
+      "guide_pixel": [
+        833,
+        906
+      ],
+      "projected_pixel": [
+        833.518521339805,
+        904.8171314773736
+      ],
+      "residual_pixels": 1.2915271277265867
+    },
+    {
+      "id": 5,
+      "mesh_center_xz": [
+        14.170591354370117,
+        48.66135025024414
+      ],
+      "guide_pixel": [
+        894,
+        867
+      ],
+      "projected_pixel": [
+        893.999994330936,
+        866.9999981721242
+      ],
+      "residual_pixels": 5.9564600542282176e-06
+    },
+    {
+      "id": 6,
+      "mesh_center_xz": [
+        38.66888618469238,
+        48.3885383605957
+      ],
+      "guide_pixel": [
+        956,
+        831
+      ],
+      "projected_pixel": [
+        955.9999919644108,
+        830.999999143459
+      ],
+      "residual_pixels": 8.081111065177088e-06
+    },
+    {
+      "id": 7,
+      "mesh_center_xz": [
+        58.08010673522949,
+        41.913063049316406
+      ],
+      "guide_pixel": [
+        986,
+        791
+      ],
+      "projected_pixel": [
+        986.000003443824,
+        790.9999979601965
+      ],
+      "residual_pixels": 4.002589375215356e-06
+    },
+    {
+      "id": 8,
+      "mesh_center_xz": [
+        85.31871795654297,
+        50.27716827392578
+      ],
+      "guide_pixel": [
+        1080,
+        769
+      ],
+      "projected_pixel": [
+        1081.4189852255363,
+        766.8634255373919
+      ],
+      "residual_pixels": 2.564852725705592
+    },
+    {
+      "id": 9,
+      "mesh_center_xz": [
+        109.31298446655273,
+        50.597129821777344
+      ],
+      "guide_pixel": [
+        1142,
+        736
+      ],
+      "projected_pixel": [
+        1143.9374957261261,
+        732.6805521823742
+      ],
+      "residual_pixels": 3.843517074594291
+    }
+  ],
+  "arrival_centres_used_for_refinement": true,
+  "checkin_registration_anchors": {
+    "world": [
+      [
+        -104.5,
+        12.0,
+        1.0
+      ],
+      [
+        147.5,
+        12.0,
+        1.0
+      ],
+      [
+        147.5,
+        96.0,
+        1.0
+      ],
+      [
+        -104.5,
+        96.0,
+        1.0
+      ]
+    ],
+    "pixels": [
+      [
+        853,
+        1443
+      ],
+      [
+        1590,
+        1010
+      ],
+      [
+        1865,
+        1170
+      ],
+      [
+        1090,
+        1600
+      ]
+    ],
+    "method": "four floor outline corners; least-squares affine; manual diagram reading"
+  },
+  "arrival_registration_anchors": {
+    "world_xz_homogeneous": [
+      [
+        -86.5,
+        52.0,
+        1.0
+      ],
+      [
+        129.5,
+        52.0,
+        1.0
+      ],
+      [
+        -86.5,
+        61.0,
+        1.0
+      ]
+    ],
+    "pixels": [
+      [
+        646.0,
+        1019.0
+      ],
+      [
+        1200.0,
+        706.0
+      ],
+      [
+        673.5,
+        1035.5
+      ]
+    ],
+    "reading_uncertainty_px": 8,
+    "scale_is_estimated": true
+  }
+}

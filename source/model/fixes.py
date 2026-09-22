@@ -42,11 +42,14 @@ for bank in ['D','I']:
 
 # Connect the bank boundaries to the concourse edge and exterior enclosure.
 d0=np.array([r for r in records if r['id']=='SEC-D-01'][0]['position'])[[0,2]]
-d1=np.array([r for r in records if r['id']=='SEC-D-18'][0]['position'])[[0,2]]
-partition(d0+[-2.2,0],[-56,30.3]);partition([-56,30.3],[-56,16]);partition([-56,16],[-45.5,16]);partition([-45.5,16],[-45.5,12])
+d1=np.array([r for r in records if r['id'].startswith('SEC-D-')][-1]['position'])[[0,2]]
+from guide_registration import shop_outline
+shop_edge=shop_outline('D-SH01')
+partition(d0+[-2.2,0],shop_edge[2])
+partition([X0,30.6],[-56,30.6]);partition([-56,30.6],shop_edge[0])
 partition(d1+[4.6,0],[75,34])
 i0=np.array([r for r in records if r['id']=='SEC-I-01'][0]['position'])[[0,2]]
-i1=np.array([r for r in records if r['id']=='SEC-I-07'][0]['position'])[[0,2]]
+i1=np.array([r for r in records if r['id'].startswith('SEC-I-')][-1]['position'])[[0,2]]
 partition(i0+[0,-2.2],[i0[0],12]);partition(i1+[0,4.6],[147.5,i1[1]+4.6])
 
 # Replace the long textured board with extruded, un-stretched KaiTi characters.

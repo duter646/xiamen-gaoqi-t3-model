@@ -1,7 +1,7 @@
 # A continuous passenger separation boundary, without an uncontrolled shortcut
 # between domestic and international gates. Bends keep the immigration bank east.
 boundary=[[20.2,-12.5],[20.2,16.4]]  # between mapped gates 8 (x=5.73) and 9 (x=81.46)
-arrival_boundary=[[23.25,16.4],[75,16.4],[75,15.8],[93.3,15.8],[93.3,30.3],[75,30.3],[75,48],[45,65],[45,96]]
+arrival_boundary=[[23.25,16.4],[75,16.4],[75,15.8],[93.3,15.8],[93.3,31.9],[75,31.9],[75,48],[45,65],[45,96]]
 for a,b in zip(arrival_boundary,arrival_boundary[1:]):partition(a,b,'Interior_ZoneSeparation',3.0)
 for a,b in zip(boundary,boundary[1:]):partition(a,b,'Interior_ZoneSeparation',3.0)
 label('Interior_ZoneSeparationSigns','国内候机区','DOMESTIC GATES',(20.0,F3+2.8,7),4.2,.65,'z')

@@ -374,6 +374,8 @@ for (group,mat),data in groups.items():
         elif group=='Structure_ConcourseBase':verts[:,1]*=(5.6+FG-F2)/5.6
         elif group.startswith('Exterior_JetBridge_'):
             yy=verts[:,1];verts[:,1]+=np.clip((yy-.3)/5.6,0,1)*(FG-F2)
+finish_guide_connections()
+exec(compile((ROOT/'concourse_envelope.py').read_text(encoding='utf-8'),str(ROOT/'concourse_envelope.py'),'exec'))
 export=export.replace("[240,96]","[252,108]").replace("'estimated_concourse_length_m':476","'mapped_concourse_length_m':767")
 export=export.replace('XMN T3 photo-informed procedural architectural study','XMN T3 revision 6, security partitions and exterior fixes')
 export=export.replace('See README.md','See EVIDENCE.md; OSM contributors ODbL; heights and detailed interiors estimated')

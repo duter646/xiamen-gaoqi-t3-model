@@ -9,6 +9,8 @@ for r in records:
         pts=[[x,z+3.7],[x,z],[x,z-3.3],[x+.8,z-3.3],[x+.8,32.9],[-25,32.9],[-25,5.5]]
     else:
         pts=[[x-3.7,z],[x,z],[x+3.3,z],[x+3.3,z+.8],[134,z+.8],[134,5.5]]
+        if r['id']=='SEC-I-04':
+            pts=[[x-3.7,z],[x,z],[x+.6,z],[x+.6,z-.83],[x+3.3,z-.83],[134,z-.83],[134,5.5]]
     paths.append(dict(id=r['id'],points=pts,level_y=F3,steps=['approach','portal','pickup','post-screening corridor','gate concourse']))
     for a,b in zip(pts,pts[1:]):
         if np.linalg.norm(np.array(a)-b)<.01:continue

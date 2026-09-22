@@ -1,0 +1,189 @@
+{
+  "portals": [
+    {
+      "gate": "17",
+      "root": [
+        417.58259823879604,
+        12.1,
+        -14.0
+      ],
+      "clear_width": 3.2,
+      "clear_height": 3.3
+    },
+    {
+      "gate": "16",
+      "root": [
+        374.7202923030691,
+        12.1,
+        -12.5
+      ],
+      "clear_width": 3.2,
+      "clear_height": 3.3
+    },
+    {
+      "gate": "15",
+      "root": [
+        320.4649629728101,
+        12.1,
+        -12.5
+      ],
+      "clear_width": 3.2,
+      "clear_height": 3.3
+    },
+    {
+      "gate": "12",
+      "root": [
+        263.5887405902984,
+        12.1,
+        -12.5
+      ],
+      "clear_width": 3.2,
+      "clear_height": 3.3
+    },
+    {
+      "gate": "11",
+      "root": [
+        205.79883879749343,
+        12.1,
+        -12.5
+      ],
+      "clear_width": 3.2,
+      "clear_height": 3.3
+    },
+    {
+      "gate": "10",
+      "root": [
+        149.3071379364198,
+        12.1,
+        -12.5
+      ],
+      "clear_width": 3.2,
+      "clear_height": 3.3
+    },
+    {
+      "gate": "9",
+      "root": [
+        81.46331088575533,
+        12.1,
+        -12.5
+      ],
+      "clear_width": 3.2,
+      "clear_height": 3.3
+    },
+    {
+      "gate": "8",
+      "root": [
+        8.832407211334417,
+        12.1,
+        -12.5
+      ],
+      "clear_width": 3.2,
+      "clear_height": 3.3
+    },
+    {
+      "gate": "7",
+      "root": [
+        -57.04046052250954,
+        12.1,
+        -12.5
+      ],
+      "clear_width": 3.2,
+      "clear_height": 3.3
+    },
+    {
+      "gate": "6",
+      "root": [
+        -114.55477962822415,
+        12.1,
+        -12.5
+      ],
+      "clear_width": 3.2,
+      "clear_height": 3.3
+    },
+    {
+      "gate": "5",
+      "root": [
+        -173.3537655967127,
+        12.1,
+        -12.5
+      ],
+      "clear_width": 3.2,
+      "clear_height": 3.3
+    },
+    {
+      "gate": "3",
+      "root": [
+        -224.63084173401097,
+        12.1,
+        -12.5
+      ],
+      "clear_width": 3.2,
+      "clear_height": 3.3
+    },
+    {
+      "gate": "2",
+      "root": [
+        -286.53137265886994,
+        12.1,
+        -12.5
+      ],
+      "clear_width": 3.2,
+      "clear_height": 3.3
+    },
+    {
+      "gate": "1",
+      "root": [
+        -336.8542434695276,
+        12.1,
+        -12.5
+      ],
+      "clear_width": 3.2,
+      "clear_height": 3.3
+    }
+  ],
+  "west_footprint": [
+    [
+      -384,
+      -12.5
+    ],
+    [
+      -424.86,
+      -93.27
+    ],
+    [
+      -424.64,
+      -120.05
+    ],
+    [
+      -414.04,
+      -120.9
+    ],
+    [
+      -380.61,
+      -52.31
+    ],
+    [
+      -371.37,
+      -41.11
+    ],
+    [
+      -360.28,
+      -32.71
+    ],
+    [
+      -347.42,
+      -27.88
+    ],
+    [
+      -341,
+      -12.5
+    ]
+  ],
+  "evidence": [
+    "references/t3-west-satellite.jpg",
+    "references/t3-west-satellite.json",
+    "references/exterior-airside.jpg",
+    "references/official-departure-map.jpg"
+  ],
+  "limitations": "Satellite roof trace is approximate; west return heights and opaque facade treatment are estimates, not surveyed details."
+}
